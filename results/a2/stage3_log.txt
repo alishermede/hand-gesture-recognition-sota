@@ -1,0 +1,295 @@
+torch 2.14.1+cu130 | device cuda | fast False | models ['B0', 'S1', 'S2', 'S3', 'S4', 'S5'] | seeds [42, 43, 44]
+train 1598 (own 422, hagrid 1176)  val 98  tests a1_test:200, hagrid_people:292
+282 background textures
+    B0       s42 a1_test        n= 200 acc 0.945 F1 0.947  det 94%
+    B0       s42 hagrid_people  n= 292 acc 0.435 F1 0.336  det 86%
+    B0       s43 a1_test        n= 200 acc 0.890 F1 0.891  det 94%
+    B0       s43 hagrid_people  n= 292 acc 0.545 F1 0.462  det 86%
+    B0       s44 a1_test        n= 200 acc 0.905 F1 0.909  det 94%
+    B0       s44 hagrid_people  n= 292 acc 0.479 F1 0.394  det 86%
+  [S1 s42/head] epoch  1/6  train loss 1.060 acc 0.453 | val loss 1.040 acc 0.480
+  [S1 s42/head] epoch  2/6  train loss 0.825 acc 0.713 | val loss 0.770 acc 0.755
+  [S1 s42/head] epoch  3/6  train loss 0.696 acc 0.851 | val loss 0.671 acc 0.837
+  [S1 s42/head] epoch  4/6  train loss 0.616 acc 0.877 | val loss 0.656 acc 0.786
+  [S1 s42/head] epoch  5/6  train loss 0.593 acc 0.860 | val loss 0.632 acc 0.857
+  [S1 s42/head] epoch  6/6  train loss 0.581 acc 0.891 | val loss 0.639 acc 0.827
+  [S1 s42/head] best val acc 0.8571
+  [S1 s42/full] epoch  1/12  train loss 0.395 acc 0.934 | val loss 0.414 acc 0.908
+  [S1 s42/full] epoch  2/12  train loss 0.247 acc 0.981 | val loss 0.360 acc 0.908
+  [S1 s42/full] epoch  3/12  train loss 0.227 acc 0.998 | val loss 0.310 acc 0.939
+  [S1 s42/full] epoch  4/12  train loss 0.214 acc 0.991 | val loss 0.273 acc 0.939
+  [S1 s42/full] epoch  5/12  train loss 0.216 acc 0.988 | val loss 0.256 acc 0.949
+  [S1 s42/full] epoch  6/12  train loss 0.202 acc 0.998 | val loss 0.254 acc 0.959
+  [S1 s42/full] epoch  7/12  train loss 0.206 acc 0.995 | val loss 0.242 acc 0.969
+  [S1 s42/full] epoch  8/12  train loss 0.209 acc 0.988 | val loss 0.240 acc 0.969
+  [S1 s42/full] epoch  9/12  train loss 0.207 acc 1.000 | val loss 0.244 acc 0.969
+  [S1 s42/full] epoch 10/12  train loss 0.199 acc 0.998 | val loss 0.238 acc 0.969
+  [S1 s42/full] epoch 11/12  train loss 0.201 acc 0.995 | val loss 0.238 acc 0.969
+  [S1 s42/full] epoch 12/12  train loss 0.200 acc 1.000 | val loss 0.242 acc 0.969
+  [S1 s42/full] best val acc 0.9694
+  S1 s42: trained on 422 images in 81s
+    S1       s42 a1_test        n= 200 acc 0.955 F1 0.957  det 94%
+    S1       s42 hagrid_people  n= 292 acc 0.647 F1 0.606  det 86%
+  [S1 s43/head] epoch  1/6  train loss 1.029 acc 0.488 | val loss 0.926 acc 0.643
+  [S1 s43/head] epoch  2/6  train loss 0.801 acc 0.694 | val loss 0.826 acc 0.653
+  [S1 s43/head] epoch  3/6  train loss 0.710 acc 0.801 | val loss 0.789 acc 0.684
+  [S1 s43/head] epoch  4/6  train loss 0.653 acc 0.836 | val loss 0.693 acc 0.776
+  [S1 s43/head] epoch  5/6  train loss 0.571 acc 0.900 | val loss 0.705 acc 0.765
+  [S1 s43/head] epoch  6/6  train loss 0.575 acc 0.879 | val loss 0.694 acc 0.755
+  [S1 s43/head] best val acc 0.7755
+  [S1 s43/full] epoch  1/12  train loss 0.419 acc 0.917 | val loss 0.340 acc 0.918
+  [S1 s43/full] epoch  2/12  train loss 0.261 acc 0.972 | val loss 0.319 acc 0.929
+  [S1 s43/full] epoch  3/12  train loss 0.231 acc 0.979 | val loss 0.288 acc 0.929
+  [S1 s43/full] epoch  4/12  train loss 0.213 acc 0.988 | val loss 0.252 acc 0.969
+  [S1 s43/full] epoch  5/12  train loss 0.225 acc 0.993 | val loss 0.242 acc 0.969
+  [S1 s43/full] epoch  6/12  train loss 0.201 acc 0.998 | val loss 0.234 acc 0.980
+  [S1 s43/full] epoch  7/12  train loss 0.206 acc 0.993 | val loss 0.225 acc 1.000
+  [S1 s43/full] epoch  8/12  train loss 0.206 acc 0.995 | val loss 0.225 acc 0.990
+  [S1 s43/full] epoch  9/12  train loss 0.200 acc 0.993 | val loss 0.222 acc 0.990
+  [S1 s43/full] epoch 10/12  train loss 0.207 acc 0.998 | val loss 0.217 acc 1.000
+  [S1 s43/full] epoch 11/12  train loss 0.197 acc 0.998 | val loss 0.223 acc 0.980
+  [S1 s43/full] epoch 12/12  train loss 0.198 acc 0.998 | val loss 0.218 acc 1.000
+  [S1 s43/full] best val acc 1.0000
+  S1 s43: trained on 422 images in 77s
+    S1       s43 a1_test        n= 200 acc 0.920 F1 0.922  det 94%
+    S1       s43 hagrid_people  n= 292 acc 0.699 F1 0.684  det 86%
+  [S1 s44/head] epoch  1/6  train loss 1.010 acc 0.559 | val loss 0.893 acc 0.510
+  [S1 s44/head] epoch  2/6  train loss 0.784 acc 0.739 | val loss 0.639 acc 0.837
+  [S1 s44/head] epoch  3/6  train loss 0.681 acc 0.832 | val loss 0.576 acc 0.827
+  [S1 s44/head] epoch  4/6  train loss 0.612 acc 0.863 | val loss 0.597 acc 0.806
+  [S1 s44/head] epoch  5/6  train loss 0.572 acc 0.910 | val loss 0.578 acc 0.806
+  [S1 s44/head] epoch  6/6  train loss 0.569 acc 0.884 | val loss 0.552 acc 0.816
+  [S1 s44/head] best val acc 0.8367
+  [S1 s44/full] epoch  1/12  train loss 0.460 acc 0.908 | val loss 0.324 acc 0.929
+  [S1 s44/full] epoch  2/12  train loss 0.262 acc 0.974 | val loss 0.301 acc 0.929
+  [S1 s44/full] epoch  3/12  train loss 0.234 acc 0.986 | val loss 0.287 acc 0.939
+  [S1 s44/full] epoch  4/12  train loss 0.230 acc 0.981 | val loss 0.254 acc 0.990
+  [S1 s44/full] epoch  5/12  train loss 0.206 acc 0.995 | val loss 0.236 acc 1.000
+  [S1 s44/full] epoch  6/12  train loss 0.211 acc 0.991 | val loss 0.240 acc 0.990
+  [S1 s44/full] epoch  7/12  train loss 0.203 acc 0.995 | val loss 0.241 acc 0.959
+  [S1 s44/full] epoch  8/12  train loss 0.200 acc 0.998 | val loss 0.242 acc 0.959
+  [S1 s44/full] epoch  9/12  train loss 0.195 acc 0.998 | val loss 0.238 acc 0.969
+  [S1 s44/full] epoch 10/12  train loss 0.206 acc 0.991 | val loss 0.244 acc 0.959
+  [S1 s44/full] epoch 11/12  train loss 0.197 acc 1.000 | val loss 0.240 acc 0.969
+  [S1 s44/full] epoch 12/12  train loss 0.199 acc 0.998 | val loss 0.238 acc 0.980
+  [S1 s44/full] best val acc 1.0000
+  S1 s44: trained on 422 images in 74s
+    S1       s44 a1_test        n= 200 acc 0.940 F1 0.941  det 94%
+    S1       s44 hagrid_people  n= 292 acc 0.743 F1 0.741  det 86%
+  [S2 s42/head] epoch  1/6  train loss 1.068 acc 0.422 | val loss 1.075 acc 0.408
+  [S2 s42/head] epoch  2/6  train loss 0.881 acc 0.666 | val loss 0.842 acc 0.694
+  [S2 s42/head] epoch  3/6  train loss 0.762 acc 0.761 | val loss 0.764 acc 0.796
+  [S2 s42/head] epoch  4/6  train loss 0.732 acc 0.801 | val loss 0.718 acc 0.755
+  [S2 s42/head] epoch  5/6  train loss 0.682 acc 0.803 | val loss 0.698 acc 0.765
+  [S2 s42/head] epoch  6/6  train loss 0.676 acc 0.825 | val loss 0.695 acc 0.776
+  [S2 s42/head] best val acc 0.7959
+  [S2 s42/full] epoch  1/12  train loss 0.532 acc 0.874 | val loss 0.406 acc 0.908
+  [S2 s42/full] epoch  2/12  train loss 0.333 acc 0.943 | val loss 0.367 acc 0.908
+  [S2 s42/full] epoch  3/12  train loss 0.274 acc 0.953 | val loss 0.342 acc 0.918
+  [S2 s42/full] epoch  4/12  train loss 0.243 acc 0.981 | val loss 0.296 acc 0.918
+  [S2 s42/full] epoch  5/12  train loss 0.253 acc 0.972 | val loss 0.266 acc 0.939
+  [S2 s42/full] epoch  6/12  train loss 0.221 acc 0.991 | val loss 0.262 acc 0.949
+  [S2 s42/full] epoch  7/12  train loss 0.224 acc 0.986 | val loss 0.245 acc 0.959
+  [S2 s42/full] epoch  8/12  train loss 0.221 acc 0.991 | val loss 0.250 acc 0.949
+  [S2 s42/full] epoch  9/12  train loss 0.236 acc 0.979 | val loss 0.253 acc 0.949
+  [S2 s42/full] epoch 10/12  train loss 0.224 acc 0.986 | val loss 0.246 acc 0.959
+  [S2 s42/full] epoch 11/12  train loss 0.219 acc 0.983 | val loss 0.246 acc 0.959
+  [S2 s42/full] epoch 12/12  train loss 0.225 acc 0.991 | val loss 0.245 acc 0.969
+  [S2 s42/full] best val acc 0.9694
+  S2 s42: trained on 422 images in 93s
+    S2       s42 a1_test        n= 200 acc 0.970 F1 0.971  det 94%
+    S2       s42 hagrid_people  n= 292 acc 0.551 F1 0.525  det 86%
+  [S2 s43/head] epoch  1/6  train loss 1.077 acc 0.441 | val loss 0.940 acc 0.500
+  [S2 s43/head] epoch  2/6  train loss 0.901 acc 0.600 | val loss 0.865 acc 0.582
+  [S2 s43/head] epoch  3/6  train loss 0.818 acc 0.711 | val loss 0.796 acc 0.694
+  [S2 s43/head] epoch  4/6  train loss 0.759 acc 0.742 | val loss 0.732 acc 0.776
+  [S2 s43/head] epoch  5/6  train loss 0.693 acc 0.827 | val loss 0.724 acc 0.755
+  [S2 s43/head] epoch  6/6  train loss 0.693 acc 0.818 | val loss 0.719 acc 0.765
+  [S2 s43/head] best val acc 0.7755
+  [S2 s43/full] epoch  1/12  train loss 0.535 acc 0.855 | val loss 0.354 acc 0.918
+  [S2 s43/full] epoch  2/12  train loss 0.322 acc 0.938 | val loss 0.336 acc 0.918
+  [S2 s43/full] epoch  3/12  train loss 0.278 acc 0.964 | val loss 0.296 acc 0.929
+  [S2 s43/full] epoch  4/12  train loss 0.242 acc 0.979 | val loss 0.246 acc 0.980
+  [S2 s43/full] epoch  5/12  train loss 0.252 acc 0.974 | val loss 0.246 acc 0.969
+  [S2 s43/full] epoch  6/12  train loss 0.216 acc 0.993 | val loss 0.242 acc 0.980
+  [S2 s43/full] epoch  7/12  train loss 0.226 acc 0.991 | val loss 0.230 acc 1.000
+  [S2 s43/full] epoch  8/12  train loss 0.240 acc 0.991 | val loss 0.228 acc 1.000
+  [S2 s43/full] epoch  9/12  train loss 0.227 acc 0.991 | val loss 0.227 acc 1.000
+  [S2 s43/full] epoch 10/12  train loss 0.237 acc 0.974 | val loss 0.226 acc 1.000
+  [S2 s43/full] epoch 11/12  train loss 0.221 acc 0.983 | val loss 0.235 acc 0.990
+  [S2 s43/full] epoch 12/12  train loss 0.218 acc 0.991 | val loss 0.229 acc 1.000
+  [S2 s43/full] best val acc 1.0000
+  S2 s43: trained on 422 images in 94s
+    S2       s43 a1_test        n= 200 acc 0.930 F1 0.931  det 94%
+    S2       s43 hagrid_people  n= 292 acc 0.613 F1 0.597  det 86%
+  [S2 s44/head] epoch  1/6  train loss 1.069 acc 0.460 | val loss 0.936 acc 0.490
+  [S2 s44/head] epoch  2/6  train loss 0.881 acc 0.600 | val loss 0.716 acc 0.816
+  [S2 s44/head] epoch  3/6  train loss 0.802 acc 0.723 | val loss 0.648 acc 0.816
+  [S2 s44/head] epoch  4/6  train loss 0.715 acc 0.815 | val loss 0.658 acc 0.816
+  [S2 s44/head] epoch  5/6  train loss 0.701 acc 0.801 | val loss 0.636 acc 0.796
+  [S2 s44/head] epoch  6/6  train loss 0.671 acc 0.818 | val loss 0.614 acc 0.806
+  [S2 s44/head] best val acc 0.8163
+  [S2 s44/full] epoch  1/12  train loss 0.585 acc 0.846 | val loss 0.368 acc 0.918
+  [S2 s44/full] epoch  2/12  train loss 0.324 acc 0.953 | val loss 0.346 acc 0.918
+  [S2 s44/full] epoch  3/12  train loss 0.274 acc 0.974 | val loss 0.326 acc 0.918
+  [S2 s44/full] epoch  4/12  train loss 0.252 acc 0.972 | val loss 0.272 acc 0.949
+  [S2 s44/full] epoch  5/12  train loss 0.244 acc 0.981 | val loss 0.247 acc 0.969
+  [S2 s44/full] epoch  6/12  train loss 0.239 acc 0.986 | val loss 0.245 acc 0.969
+  [S2 s44/full] epoch  7/12  train loss 0.229 acc 0.981 | val loss 0.243 acc 0.969
+  [S2 s44/full] epoch  8/12  train loss 0.217 acc 0.991 | val loss 0.241 acc 0.980
+  [S2 s44/full] epoch  9/12  train loss 0.218 acc 0.991 | val loss 0.234 acc 0.990
+  [S2 s44/full] epoch 10/12  train loss 0.227 acc 0.986 | val loss 0.235 acc 1.000
+  [S2 s44/full] epoch 11/12  train loss 0.224 acc 0.979 | val loss 0.231 acc 1.000
+  [S2 s44/full] epoch 12/12  train loss 0.213 acc 0.993 | val loss 0.231 acc 1.000
+  [S2 s44/full] best val acc 1.0000
+  S2 s44: trained on 422 images in 90s
+    S2       s44 a1_test        n= 200 acc 0.935 F1 0.937  det 94%
+    S2       s44 hagrid_people  n= 292 acc 0.651 F1 0.636  det 86%
+  [S3 s42/head] epoch  1/6  train loss 0.964 acc 0.538 | val loss 0.890 acc 0.633
+  [S3 s42/head] epoch  2/6  train loss 0.744 acc 0.727 | val loss 0.896 acc 0.663
+  [S3 s42/head] epoch  3/6  train loss 0.685 acc 0.780 | val loss 0.737 acc 0.755
+  [S3 s42/head] epoch  4/6  train loss 0.637 acc 0.807 | val loss 0.687 acc 0.765
+  [S3 s42/head] epoch  5/6  train loss 0.635 acc 0.800 | val loss 0.679 acc 0.827
+  [S3 s42/head] epoch  6/6  train loss 0.608 acc 0.815 | val loss 0.681 acc 0.827
+  [S3 s42/head] best val acc 0.8265
+  [S3 s42/full] epoch  1/12  train loss 0.402 acc 0.900 | val loss 0.403 acc 0.908
+  [S3 s42/full] epoch  2/12  train loss 0.331 acc 0.938 | val loss 0.310 acc 0.929
+  [S3 s42/full] epoch  3/12  train loss 0.289 acc 0.961 | val loss 0.303 acc 0.908
+  [S3 s42/full] epoch  4/12  train loss 0.258 acc 0.972 | val loss 0.236 acc 0.990
+  [S3 s42/full] epoch  5/12  train loss 0.261 acc 0.970 | val loss 0.277 acc 0.939
+  [S3 s42/full] epoch  6/12  train loss 0.242 acc 0.976 | val loss 0.246 acc 0.939
+  [S3 s42/full] epoch  7/12  train loss 0.245 acc 0.977 | val loss 0.236 acc 0.959
+  [S3 s42/full] epoch  8/12  train loss 0.241 acc 0.981 | val loss 0.247 acc 0.939
+  [S3 s42/full] epoch  9/12  train loss 0.229 acc 0.985 | val loss 0.266 acc 0.929
+  [S3 s42/full] epoch 10/12  train loss 0.237 acc 0.974 | val loss 0.277 acc 0.929
+  [S3 s42/full] epoch 11/12  train loss 0.231 acc 0.983 | val loss 0.270 acc 0.929
+  [S3 s42/full] epoch 12/12  train loss 0.232 acc 0.981 | val loss 0.264 acc 0.929
+  [S3 s42/full] best val acc 0.9898
+  S3 s42: trained on 1598 images in 364s
+    S3       s42 a1_test        n= 200 acc 0.950 F1 0.951  det 94%
+    S3       s42 hagrid_people  n= 292 acc 0.979 F1 0.980  det 86%
+  [S3 s43/head] epoch  1/6  train loss 0.948 acc 0.568 | val loss 0.939 acc 0.531
+  [S3 s43/head] epoch  2/6  train loss 0.748 acc 0.730 | val loss 0.809 acc 0.663
+  [S3 s43/head] epoch  3/6  train loss 0.686 acc 0.763 | val loss 0.738 acc 0.694
+  [S3 s43/head] epoch  4/6  train loss 0.643 acc 0.787 | val loss 0.743 acc 0.704
+  [S3 s43/head] epoch  5/6  train loss 0.615 acc 0.805 | val loss 0.684 acc 0.765
+  [S3 s43/head] epoch  6/6  train loss 0.597 acc 0.821 | val loss 0.696 acc 0.745
+  [S3 s43/head] best val acc 0.7653
+  [S3 s43/full] epoch  1/12  train loss 0.412 acc 0.892 | val loss 0.393 acc 0.918
+  [S3 s43/full] epoch  2/12  train loss 0.307 acc 0.944 | val loss 0.343 acc 0.918
+  [S3 s43/full] epoch  3/12  train loss 0.300 acc 0.949 | val loss 0.316 acc 0.918
+  [S3 s43/full] epoch  4/12  train loss 0.267 acc 0.967 | val loss 0.339 acc 0.918
+  [S3 s43/full] epoch  5/12  train loss 0.254 acc 0.974 | val loss 0.296 acc 0.918
+  [S3 s43/full] epoch  6/12  train loss 0.256 acc 0.967 | val loss 0.279 acc 0.929
+  [S3 s43/full] epoch  7/12  train loss 0.243 acc 0.975 | val loss 0.273 acc 0.939
+  [S3 s43/full] epoch  8/12  train loss 0.241 acc 0.976 | val loss 0.253 acc 0.949
+  [S3 s43/full] epoch  9/12  train loss 0.240 acc 0.979 | val loss 0.266 acc 0.949
+  [S3 s43/full] epoch 10/12  train loss 0.229 acc 0.985 | val loss 0.268 acc 0.939
+  [S3 s43/full] epoch 11/12  train loss 0.236 acc 0.979 | val loss 0.262 acc 0.939
+  [S3 s43/full] epoch 12/12  train loss 0.233 acc 0.984 | val loss 0.264 acc 0.939
+  [S3 s43/full] best val acc 0.9490
+  S3 s43: trained on 1598 images in 347s
+    S3       s43 a1_test        n= 200 acc 0.975 F1 0.976  det 94%
+    S3       s43 hagrid_people  n= 292 acc 0.979 F1 0.980  det 86%
+  [S3 s44/head] epoch  1/6  train loss 1.030 acc 0.503 | val loss 0.854 acc 0.694
+  [S3 s44/head] epoch  2/6  train loss 0.801 acc 0.693 | val loss 0.766 acc 0.765
+  [S3 s44/head] epoch  3/6  train loss 0.707 acc 0.749 | val loss 0.737 acc 0.694
+  [S3 s44/head] epoch  4/6  train loss 0.671 acc 0.772 | val loss 0.682 acc 0.735
+  [S3 s44/head] epoch  5/6  train loss 0.646 acc 0.793 | val loss 0.657 acc 0.827
+  [S3 s44/head] epoch  6/6  train loss 0.630 acc 0.793 | val loss 0.663 acc 0.796
+  [S3 s44/head] best val acc 0.8265
+  [S3 s44/full] epoch  1/12  train loss 0.428 acc 0.897 | val loss 0.396 acc 0.908
+  [S3 s44/full] epoch  2/12  train loss 0.303 acc 0.951 | val loss 0.344 acc 0.918
+  [S3 s44/full] epoch  3/12  train loss 0.273 acc 0.966 | val loss 0.301 acc 0.929
+  [S3 s44/full] epoch  4/12  train loss 0.265 acc 0.967 | val loss 0.334 acc 0.929
+  [S3 s44/full] epoch  5/12  train loss 0.254 acc 0.972 | val loss 0.348 acc 0.918
+  [S3 s44/full] epoch  6/12  train loss 0.248 acc 0.975 | val loss 0.318 acc 0.929
+  [S3 s44/full] epoch  7/12  train loss 0.243 acc 0.976 | val loss 0.318 acc 0.929
+  [S3 s44/full] epoch  8/12  train loss 0.230 acc 0.988 | val loss 0.337 acc 0.929
+  [S3 s44/full] epoch  9/12  train loss 0.237 acc 0.976 | val loss 0.350 acc 0.929
+  [S3 s44/full] epoch 10/12  train loss 0.229 acc 0.986 | val loss 0.310 acc 0.929
+  [S3 s44/full] epoch 11/12  train loss 0.225 acc 0.986 | val loss 0.308 acc 0.939
+  [S3 s44/full] epoch 12/12  train loss 0.227 acc 0.981 | val loss 0.306 acc 0.929
+  [S3 s44/full] best val acc 0.9388
+  S3 s44: trained on 1598 images in 355s
+    S3       s44 a1_test        n= 200 acc 0.940 F1 0.941  det 94%
+    S3       s44 hagrid_people  n= 292 acc 0.976 F1 0.976  det 86%
+Loading weights:   0%|          | 0/223 [00:00<?, ?it/s]Loading weights: 100%|██████████| 223/223 [00:00<00:00, 3137.02it/s]
+  [S4 s42/head] epoch  1/6  train loss 0.641 acc 0.769 | val loss 0.439 acc 0.867
+  [S4 s42/head] epoch  2/6  train loss 0.380 acc 0.912 | val loss 0.404 acc 0.898
+  [S4 s42/head] epoch  3/6  train loss 0.363 acc 0.924 | val loss 0.417 acc 0.898
+  [S4 s42/head] epoch  4/6  train loss 0.353 acc 0.929 | val loss 0.398 acc 0.918
+  [S4 s42/head] epoch  5/6  train loss 0.322 acc 0.947 | val loss 0.388 acc 0.888
+  [S4 s42/head] epoch  6/6  train loss 0.333 acc 0.939 | val loss 0.385 acc 0.888
+  [S4 s42/head] best val acc 0.9184
+    S4-probe s42 a1_test        n= 200 acc 0.830 F1 0.827  det 94%
+    S4-probe s42 hagrid_people  n= 292 acc 0.952 F1 0.952  det 86%
+  [S4 s42/full] epoch  1/8  train loss 0.394 acc 0.923 | val loss 0.358 acc 0.918
+  [S4 s42/full] epoch  2/8  train loss 0.252 acc 0.972 | val loss 0.305 acc 0.918
+  [S4 s42/full] epoch  3/8  train loss 0.241 acc 0.979 | val loss 0.291 acc 0.918
+  [S4 s42/full] epoch  4/8  train loss 0.215 acc 0.989 | val loss 0.260 acc 0.949
+  [S4 s42/full] epoch  5/8  train loss 0.209 acc 0.991 | val loss 0.230 acc 1.000
+  [S4 s42/full] epoch  6/8  train loss 0.204 acc 0.992 | val loss 0.231 acc 1.000
+  [S4 s42/full] epoch  7/8  train loss 0.202 acc 0.993 | val loss 0.230 acc 1.000
+  [S4 s42/full] epoch  8/8  train loss 0.202 acc 0.995 | val loss 0.233 acc 1.000
+  [S4 s42/full] best val acc 1.0000
+  S4 s42: trained on 1598 images in 359s
+    S4       s42 a1_test        n= 200 acc 0.995 F1 0.995  det 94%
+    S4       s42 hagrid_people  n= 292 acc 0.986 F1 0.986  det 86%
+Loading weights:   0%|          | 0/223 [00:00<?, ?it/s]Loading weights: 100%|██████████| 223/223 [00:00<00:00, 2395.07it/s]
+  [S4 s43/head] epoch  1/6  train loss 0.659 acc 0.760 | val loss 0.450 acc 0.898
+  [S4 s43/head] epoch  2/6  train loss 0.391 acc 0.902 | val loss 0.426 acc 0.867
+  [S4 s43/head] epoch  3/6  train loss 0.359 acc 0.934 | val loss 0.432 acc 0.867
+  [S4 s43/head] epoch  4/6  train loss 0.340 acc 0.943 | val loss 0.391 acc 0.898
+  [S4 s43/head] epoch  5/6  train loss 0.335 acc 0.938 | val loss 0.398 acc 0.908
+  [S4 s43/head] epoch  6/6  train loss 0.332 acc 0.934 | val loss 0.393 acc 0.898
+  [S4 s43/head] best val acc 0.9082
+    S4-probe s43 a1_test        n= 200 acc 0.855 F1 0.857  det 94%
+    S4-probe s43 hagrid_people  n= 292 acc 0.945 F1 0.945  det 86%
+  [S4 s43/full] epoch  1/8  train loss 0.427 acc 0.909 | val loss 0.368 acc 0.898
+  [S4 s43/full] epoch  2/8  train loss 0.251 acc 0.976 | val loss 0.313 acc 0.918
+  [S4 s43/full] epoch  3/8  train loss 0.238 acc 0.977 | val loss 0.242 acc 1.000
+  [S4 s43/full] epoch  4/8  train loss 0.223 acc 0.986 | val loss 0.231 acc 1.000
+  [S4 s43/full] epoch  5/8  train loss 0.217 acc 0.987 | val loss 0.223 acc 1.000
+  [S4 s43/full] epoch  6/8  train loss 0.203 acc 0.996 | val loss 0.221 acc 1.000
+  [S4 s43/full] epoch  7/8  train loss 0.196 acc 0.996 | val loss 0.226 acc 1.000
+  [S4 s43/full] epoch  8/8  train loss 0.204 acc 0.991 | val loss 0.218 acc 1.000
+  [S4 s43/full] best val acc 1.0000
+  S4 s43: trained on 1598 images in 337s
+    S4       s43 a1_test        n= 200 acc 0.970 F1 0.971  det 94%
+    S4       s43 hagrid_people  n= 292 acc 0.973 F1 0.972  det 86%
+Loading weights:   0%|          | 0/223 [00:00<?, ?it/s]Loading weights: 100%|██████████| 223/223 [00:00<00:00, 3034.72it/s]
+  [S4 s44/head] epoch  1/6  train loss 0.647 acc 0.752 | val loss 0.462 acc 0.878
+  [S4 s44/head] epoch  2/6  train loss 0.404 acc 0.894 | val loss 0.409 acc 0.888
+  [S4 s44/head] epoch  3/6  train loss 0.357 acc 0.927 | val loss 0.401 acc 0.908
+  [S4 s44/head] epoch  4/6  train loss 0.357 acc 0.929 | val loss 0.389 acc 0.908
+  [S4 s44/head] epoch  5/6  train loss 0.326 acc 0.943 | val loss 0.393 acc 0.908
+  [S4 s44/head] epoch  6/6  train loss 0.329 acc 0.945 | val loss 0.395 acc 0.908
+  [S4 s44/head] best val acc 0.9082
+    S4-probe s44 a1_test        n= 200 acc 0.800 F1 0.808  det 94%
+    S4-probe s44 hagrid_people  n= 292 acc 0.949 F1 0.949  det 86%
+  [S4 s44/full] epoch  1/8  train loss 0.362 acc 0.930 | val loss 0.347 acc 0.929
+  [S4 s44/full] epoch  2/8  train loss 0.251 acc 0.972 | val loss 0.286 acc 0.918
+  [S4 s44/full] epoch  3/8  train loss 0.230 acc 0.983 | val loss 0.409 acc 0.918
+  [S4 s44/full] epoch  4/8  train loss 0.215 acc 0.989 | val loss 0.272 acc 0.939
+  [S4 s44/full] epoch  5/8  train loss 0.209 acc 0.989 | val loss 0.274 acc 0.949
+  [S4 s44/full] epoch  6/8  train loss 0.200 acc 0.993 | val loss 0.267 acc 0.949
+  [S4 s44/full] epoch  7/8  train loss 0.199 acc 0.994 | val loss 0.269 acc 0.939
+  [S4 s44/full] epoch  8/8  train loss 0.195 acc 0.996 | val loss 0.263 acc 0.949
+  [S4 s44/full] best val acc 0.9490
+  S4 s44: trained on 1598 images in 351s
+    S4       s44 a1_test        n= 200 acc 0.985 F1 0.985  det 94%
+    S4       s44 hagrid_people  n= 292 acc 0.979 F1 0.979  det 86%
+  S5 s42: 1384 train landmarks, best val acc 0.933
+    S5       s42 a1_test        n= 200 acc 0.930 F1 0.955  det 94%
+    S5       s42 hagrid_people  n= 292 acc 0.839 F1 0.901  det 86%
+torch 2.14.1+cu130 | device cuda | fast False | models ['S5'] | seeds [43, 44]
+train 1598 (own 422, hagrid 1176)  val 98  tests a1_test:200, hagrid_people:292
+282 background textures
+  S5 s43: 1384 train landmarks, best val acc 0.933
+    S5       s43 a1_test        n= 200 acc 0.915 F1 0.940  det 94%
+    S5       s43 hagrid_people  n= 292 acc 0.839 F1 0.901  det 86%
+  S5 s44: 1384 train landmarks, best val acc 0.944
+    S5       s44 a1_test        n= 200 acc 0.930 F1 0.955  det 94%
+    S5       s44 hagrid_people  n= 292 acc 0.839 F1 0.901  det 86%
+saved C:\Users\alish\OneDrive\Рабочий стол\computer_vision_assign1\results\a2\stage3_runs.csv

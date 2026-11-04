@@ -1,0 +1,12 @@
+filepath,b0_correct_seeds,S4_correct_seeds,n_seeds,detected
+dataset/thumb/thumb2_f00667.jpg,0,3,3,True
+dataset/thumb/thumb2_f00677.jpg,0,3,3,False
+dataset/thumb/thumb2_f00687.jpg,0,3,3,True
+dataset/thumb/thumb2_f00697.jpg,0,3,3,True
+dataset/thumb/thumb2_f00707.jpg,0,3,3,True
+dataset/thumb/thumb2_f00727.jpg,0,0,3,True
+dataset/thumb/thumb2_f00737.jpg,0,2,3,True
+dataset/thumb/thumb2_f00756.jpg,0,3,3,False
+dataset/thumb/thumb2_f00806.jpg,0,3,3,True
+dataset/thumb/thumb2_f00816.jpg,0,3,3,True
+dataset/thumb/thumb2_f00826.jpg,0,3,3,True

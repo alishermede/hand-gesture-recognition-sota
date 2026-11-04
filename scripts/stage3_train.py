@@ -13,6 +13,8 @@ Test sets: a1_test (frozen), every new environment, a1_room_dark (thumb2_dark),
 hagrid_people (held-out HaGRID users).
 
 Usage:  python scripts/stage3_train.py [--models S1 S2 ...] [--seeds 42 43 44] [--device cuda]
+        python scripts/stage3_train.py --eval-only     # re-evaluate saved weights on the current
+                                                       # test sets (e.g. after new clips arrive)
         FAST_MODE=1 ...   2+2 epochs, *_fast outputs
 Writes: results/a2/stage3_runs.csv, stage3_predictions.csv, stage3_history.csv, models/<m>_seed<N>.pt
 """
@@ -121,10 +123,15 @@ def run_image_model(name, seed, df, rec, device, textures):
 
     with Timer() as tm:
         if name == "S4":
+            def probe_done(m):
+                eval_all(m, "S4-probe")
+                if not FAST:
+                    torch.save(m.state_dict(), MODELS_DIR / f"s4-probe_seed{seed}.pt")
+
             model = DinoV2Classifier()
             model, hist, n_head = run_two_stage(
                 model, loaders, unfreeze_dino_top, head=(6, 1e-3), full=(8, 2e-5), label=f"S4 s{seed}",
-                device=device, on_head_done=lambda m: eval_all(m, "S4-probe"))
+                device=device, on_head_done=probe_done)
         else:
             model = resnet18_classifier()
             model, hist, n_head = run_two_stage(model, loaders, unfreeze_all, label=f"{name} s{seed}", device=device)
@@ -133,6 +140,19 @@ def run_image_model(name, seed, df, rec, device, textures):
     rec.history(name, seed, hist, n_head)
     if not FAST:
         torch.save(model.state_dict(), MODELS_DIR / f"{name.lower()}_seed{seed}.pt")
+
+
+def eval_saved(name, seed, df, rec, device):
+    """Evaluate saved weights of an image model on every current test set (no training)."""
+    _, _, tests = splits(df, True)
+    model = DinoV2Classifier() if name.startswith("S4") else resnet18_classifier()
+    model.load_state_dict(torch.load(MODELS_DIR / f"{name.lower()}_seed{seed}.pt", map_location="cpu"))
+    model.to(device)
+    n_train = int(df[(df.split == "train") & ((df.source == "own") | (name in ("S3", "S4", "S4-probe")))].shape[0])
+    for t, tdf in tests.items():
+        dl = DataLoader(CropDataset(tdf, a1_eval_tf), batch_size=32, num_workers=0)
+        y, p, prob = predict_proba(model, dl, device=device)
+        rec.evaluate(name, seed, t, tdf, y, p, prob, {"n_train": n_train})
 
 
 def run_b0(seed, df, rec, device):
@@ -146,8 +166,13 @@ def run_b0(seed, df, rec, device):
         rec.evaluate("B0", seed, t, tdf, y, p, prob, {"n_train": 422})
 
 
-def run_s5(seed, df, rec, device, epochs=300):
+def run_s5(seed, df, rec, device, epochs=300, eval_only=False):
     train, val, tests = splits(df, True)
+    t = lambda a: torch.tensor(a, dtype=torch.float32, device=device)
+    if eval_only:
+        model = LandmarkMLP().to(device)
+        model.load_state_dict(torch.load(MODELS_DIR / f"s5_seed{seed}.pt", map_location="cpu"))
+        return s5_evaluate(model, seed, tests, rec, t, int(train.detected.sum()))
     train, val = train[train.detected].reset_index(drop=True), val[val.detected].reset_index(drop=True)
     seed_everything(seed)
     rng = np.random.default_rng(seed)
@@ -160,7 +185,6 @@ def run_s5(seed, df, rec, device, epochs=300):
     epochs = 20 if FAST else epochs
     hist = {"train_loss": [], "train_acc": [], "val_loss": [], "val_acc": []}
     best, best_state = -1, None
-    t = lambda a: torch.tensor(a, dtype=torch.float32, device=device)
     for ep in range(epochs):
         model.train()
         perm = rng.permutation(len(xtr))
@@ -186,7 +210,13 @@ def run_s5(seed, df, rec, device, epochs=300):
             best, best_state = va, {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
     model.load_state_dict(best_state)
     print(f"  S5 s{seed}: {len(train)} train landmarks, best val acc {best:.3f}")
+    s5_evaluate(model, seed, tests, rec, t, len(train))
+    rec.history("S5", seed, hist, 0)
+    if not FAST:
+        torch.save(model.state_dict(), MODELS_DIR / f"s5_seed{seed}.pt")
 
+
+def s5_evaluate(model, seed, tests, rec, t, n_train):
     model.eval()
     for name, tdf in tests.items():
         y = np.array([CLASS_TO_IDX[c] for c in tdf.label])
@@ -196,10 +226,7 @@ def run_s5(seed, df, rec, device, epochs=300):
             with torch.no_grad():
                 pr = torch.softmax(model(t(normalise_landmarks(landmark_array(tdf[det])))), 1).cpu().numpy()
             p[det], prob[det] = pr.argmax(1), pr
-        rec.evaluate("S5", seed, name, tdf, y, p, prob, {"n_train": len(train)})
-    rec.history("S5", seed, hist, 0)
-    if not FAST:
-        torch.save(model.state_dict(), MODELS_DIR / f"s5_seed{seed}.pt")
+        rec.evaluate("S5", seed, name, tdf, y, p, prob, {"n_train": n_train})
 
 
 def main():
@@ -207,12 +234,13 @@ def main():
     ap.add_argument("--models", nargs="+", default=["B0", "S1", "S2", "S3", "S4", "S5"])
     ap.add_argument("--seeds", type=int, nargs="+", default=list(SEEDS))
     ap.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
+    ap.add_argument("--eval-only", action="store_true", help="evaluate saved weights, no training")
     args = ap.parse_args()
     ensure_dirs()
     device = torch.device(args.device)
     print(f"torch {torch.__version__} | device {device} | fast {FAST} | models {args.models} | seeds {args.seeds}")
 
-    df = load_v2(fast_hands=FAST)
+    df = load_v2()
     train, val, tests = splits(df, True)
     print(f"train {len(train)} (own {(train.source == 'own').sum()}, hagrid {(train.source == 'hagrid').sum()})"
           f"  val {len(val)}  tests " + ", ".join(f"{k}:{len(v)}" for k, v in tests.items()))
@@ -225,7 +253,10 @@ def main():
             if name == "B0":
                 run_b0(seed, df, rec, device)
             elif name == "S5":
-                run_s5(seed, df, rec, device)
+                run_s5(seed, df, rec, device, eval_only=args.eval_only)
+            elif args.eval_only:
+                for n in (["S4-probe", "S4"] if name == "S4" else [name]):
+                    eval_saved(n, seed, df, rec, device)
             else:
                 run_image_model(name, seed, df, rec, device, textures)
             rec.save()

@@ -1,0 +1,5 @@
+model,method,images,heat_on_hand,hand_area,lift,acc
+B0,Grad-CAM,189,0.5548,0.2985,1.9586,0.9471
+S2,Grad-CAM,189,0.5635,0.2976,1.9397,0.9683
+S3,Grad-CAM,189,0.5171,0.2976,1.7623,0.9471
+S4,attention rollout,189,0.3464,0.2976,1.2025,0.9947

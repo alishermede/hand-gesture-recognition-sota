@@ -1,0 +1,757 @@
+filepath,test_set,label,model,method,pred,heat_on_hand,hand_area
+dataset/fist/fist2_dark_f00065.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6050906777381897,0.3194953762755102
+dataset/fist/fist2_dark_f00065.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8257367014884949,0.46741470025510207
+dataset/fist/fist2_dark_f00065.jpg,a1_test,fist,S3,Grad-CAM,fist,0.8630346655845642,0.46741470025510207
+dataset/fist/fist2_dark_f00065.jpg,a1_test,fist,S4,attention rollout,fist,0.5210615992546082,0.46741470025510207
+dataset/fist/fist2_dark_f00084.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5681051015853882,0.30771683673469385
+dataset/fist/fist2_dark_f00084.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7978971600532532,0.43785873724489793
+dataset/fist/fist2_dark_f00084.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7899808883666992,0.43785873724489793
+dataset/fist/fist2_dark_f00084.jpg,a1_test,fist,S4,attention rollout,fist,0.48853251338005066,0.43785873724489793
+dataset/fist/fist2_dark_f00104.jpg,a1_test,fist,B0,Grad-CAM,fist,0.49590516090393066,0.29203204719387754
+dataset/fist/fist2_dark_f00104.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6675562262535095,0.3339046556122449
+dataset/fist/fist2_dark_f00104.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6385106444358826,0.3339046556122449
+dataset/fist/fist2_dark_f00104.jpg,a1_test,fist,S4,attention rollout,fist,0.4029811918735504,0.3339046556122449
+dataset/fist/fist2_dark_f00123.jpg,a1_test,fist,B0,Grad-CAM,fist,0.4503559172153473,0.28340242346938777
+dataset/fist/fist2_dark_f00123.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7725025415420532,0.28396045918367346
+dataset/fist/fist2_dark_f00123.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7105210423469543,0.28396045918367346
+dataset/fist/fist2_dark_f00123.jpg,a1_test,fist,S4,attention rollout,fist,0.33868181705474854,0.28396045918367346
+dataset/fist/fist2_dark_f00143.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5887141227722168,0.39791932397959184
+dataset/fist/fist2_dark_f00143.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7731313109397888,0.3494897959183674
+dataset/fist/fist2_dark_f00143.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7249809503555298,0.3494897959183674
+dataset/fist/fist2_dark_f00143.jpg,a1_test,fist,S4,attention rollout,fist,0.38396257162094116,0.3494897959183674
+dataset/fist/fist2_dark_f00162.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6593170762062073,0.39064492984693877
+dataset/fist/fist2_dark_f00162.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8114875555038452,0.465999681122449
+dataset/fist/fist2_dark_f00162.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7837592959403992,0.465999681122449
+dataset/fist/fist2_dark_f00162.jpg,a1_test,fist,S4,attention rollout,fist,0.4234488010406494,0.465999681122449
+dataset/fist/fist2_dark_f00182.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6325749158859253,0.3728077168367347
+dataset/fist/fist2_dark_f00182.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7736794352531433,0.4543407206632653
+dataset/fist/fist2_dark_f00182.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7898514866828918,0.4543407206632653
+dataset/fist/fist2_dark_f00182.jpg,a1_test,fist,S4,attention rollout,fist,0.4641207158565521,0.4543407206632653
+dataset/fist/fist2_dark_f00201.jpg,a1_test,fist,B0,Grad-CAM,fist,0.705998957157135,0.41013632015306123
+dataset/fist/fist2_dark_f00201.jpg,a1_test,fist,S2,Grad-CAM,fist,0.766520619392395,0.4575693558673469
+dataset/fist/fist2_dark_f00201.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7841159105300903,0.4575693558673469
+dataset/fist/fist2_dark_f00201.jpg,a1_test,fist,S4,attention rollout,fist,0.48164862394332886,0.4575693558673469
+dataset/fist/fist2_dark_f00221.jpg,a1_test,fist,B0,Grad-CAM,fist,0.7141040563583374,0.4318000637755102
+dataset/fist/fist2_dark_f00221.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7687926292419434,0.44080835459183676
+dataset/fist/fist2_dark_f00221.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7844836711883545,0.44080835459183676
+dataset/fist/fist2_dark_f00221.jpg,a1_test,fist,S4,attention rollout,fist,0.4318150579929352,0.44080835459183676
+dataset/fist/fist2_dark_f00240.jpg,a1_test,fist,B0,Grad-CAM,fist,0.7050569653511047,0.411930006377551
+dataset/fist/fist2_dark_f00240.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7632368803024292,0.44381776147959184
+dataset/fist/fist2_dark_f00240.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7926748991012573,0.44381776147959184
+dataset/fist/fist2_dark_f00240.jpg,a1_test,fist,S4,attention rollout,fist,0.45035994052886963,0.44381776147959184
+dataset/fist/fist2_dark_f00260.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6279720664024353,0.4118702168367347
+dataset/fist/fist2_dark_f00260.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6219945549964905,0.23220264668367346
+dataset/fist/fist2_dark_f00260.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6230989694595337,0.23220264668367346
+dataset/fist/fist2_dark_f00260.jpg,a1_test,fist,S4,attention rollout,fist,0.3276098966598511,0.23220264668367346
+dataset/fist/fist2_dark_f00279.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6499989032745361,0.4013073979591837
+dataset/fist/fist2_dark_f00279.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6129321455955505,0.2250079719387755
+dataset/fist/fist2_dark_f00279.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6321533918380737,0.2250079719387755
+dataset/fist/fist2_dark_f00279.jpg,a1_test,fist,S4,attention rollout,fist,0.29998382925987244,0.2250079719387755
+dataset/fist/fist2_dark_f00299.jpg,a1_test,fist,B0,Grad-CAM,fist,0.34790366888046265,0.24651227678571427
+dataset/fist/fist2_dark_f00299.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6984754800796509,0.48264110331632654
+dataset/fist/fist2_dark_f00299.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7182876467704773,0.48264110331632654
+dataset/fist/fist2_dark_f00299.jpg,a1_test,fist,S4,attention rollout,fist,0.47686102986335754,0.48264110331632654
+dataset/fist/fist2_dark_f00318.jpg,a1_test,fist,B0,Grad-CAM,fist,0.49397149682044983,0.3595344387755102
+dataset/fist/fist2_dark_f00318.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7280929088592529,0.46781329719387754
+dataset/fist/fist2_dark_f00318.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7344972491264343,0.46781329719387754
+dataset/fist/fist2_dark_f00318.jpg,a1_test,fist,S4,attention rollout,fist,0.41945257782936096,0.46781329719387754
+dataset/fist/fist2_dark_f00338.jpg,a1_test,fist,B0,Grad-CAM,fist,0.29677775502204895,0.2598852040816326
+dataset/fist/fist2_dark_f00338.jpg,a1_test,fist,S2,Grad-CAM,fist,0.49498364329338074,0.30650111607142855
+dataset/fist/fist2_dark_f00338.jpg,a1_test,fist,S3,Grad-CAM,fist,0.4265878200531006,0.30650111607142855
+dataset/fist/fist2_dark_f00338.jpg,a1_test,fist,S4,attention rollout,fist,0.31204167008399963,0.30650111607142855
+dataset/fist/fist2_dark_f00358.jpg,a1_test,fist,B0,Grad-CAM,fist,0.31153249740600586,0.18056441326530612
+dataset/fist/fist2_dark_f00358.jpg,a1_test,fist,S2,Grad-CAM,fist,0.5008279085159302,0.26303411989795916
+dataset/fist/fist2_dark_f00358.jpg,a1_test,fist,S3,Grad-CAM,fist,0.42888954281806946,0.26303411989795916
+dataset/fist/fist2_dark_f00358.jpg,a1_test,fist,S4,attention rollout,fist,0.3017263114452362,0.26303411989795916
+dataset/fist/fist2_dark_f00377.jpg,a1_test,fist,B0,Grad-CAM,fist,0.37680354714393616,0.268734056122449
+dataset/fist/fist2_dark_f00377.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8094033002853394,0.5134925063775511
+dataset/fist/fist2_dark_f00377.jpg,a1_test,fist,S3,Grad-CAM,fist,0.777921199798584,0.5134925063775511
+dataset/fist/fist2_dark_f00377.jpg,a1_test,fist,S4,attention rollout,fist,0.5244811177253723,0.5134925063775511
+dataset/fist/fist2_dark_f00397.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5896477103233337,0.2970344387755102
+dataset/fist/fist2_dark_f00397.jpg,a1_test,fist,S2,Grad-CAM,fist,0.801841139793396,0.362125318877551
+dataset/fist/fist2_dark_f00397.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7658867835998535,0.362125318877551
+dataset/fist/fist2_dark_f00397.jpg,a1_test,fist,S4,attention rollout,fist,0.3468199074268341,0.362125318877551
+dataset/fist/fist2_dark_f00436.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5498495101928711,0.2403938137755102
+dataset/fist/fist2_dark_f00436.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7668672800064087,0.5600286989795918
+dataset/fist/fist2_dark_f00436.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7871756553649902,0.5600286989795918
+dataset/fist/fist2_dark_f00436.jpg,a1_test,fist,S4,attention rollout,fist,0.45730698108673096,0.5600286989795918
+dataset/fist/fist2_dark_f00455.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6401076912879944,0.29984454719387754
+dataset/fist/fist2_dark_f00455.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8191140294075012,0.4584861288265306
+dataset/fist/fist2_dark_f00455.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7804763317108154,0.4584861288265306
+dataset/fist/fist2_dark_f00455.jpg,a1_test,fist,S4,attention rollout,fist,0.4084678590297699,0.4584861288265306
+dataset/fist/fist2_dark_f00475.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5983288884162903,0.24059311224489796
+dataset/fist/fist2_dark_f00475.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7889577150344849,0.4760642538265306
+dataset/fist/fist2_dark_f00475.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7820768356323242,0.4760642538265306
+dataset/fist/fist2_dark_f00475.jpg,a1_test,fist,S4,attention rollout,fist,0.47332730889320374,0.4760642538265306
+dataset/fist/fist2_dark_f00494.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5943126082420349,0.24172911352040816
+dataset/fist/fist2_dark_f00494.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7734462022781372,0.5303730867346939
+dataset/fist/fist2_dark_f00494.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7706450819969177,0.5303730867346939
+dataset/fist/fist2_dark_f00494.jpg,a1_test,fist,S4,attention rollout,fist,0.4358173608779907,0.5303730867346939
+dataset/fist/fist2_dark_f00514.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6486798524856567,0.2688735650510204
+dataset/fist/fist2_dark_f00514.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7580794095993042,0.4391342474489796
+dataset/fist/fist2_dark_f00514.jpg,a1_test,fist,S3,Grad-CAM,fist,0.756449282169342,0.4391342474489796
+dataset/fist/fist2_dark_f00514.jpg,a1_test,fist,S4,attention rollout,fist,0.37170663475990295,0.4391342474489796
+dataset/fist/fist2_dark_f00533.jpg,a1_test,fist,B0,Grad-CAM,fist,0.612680196762085,0.26014429209183676
+dataset/fist/fist2_dark_f00533.jpg,a1_test,fist,S2,Grad-CAM,fist,0.713407039642334,0.4022839604591837
+dataset/fist/fist2_dark_f00533.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7283343076705933,0.4022839604591837
+dataset/fist/fist2_dark_f00533.jpg,a1_test,fist,S4,attention rollout,fist,0.4157196879386902,0.4022839604591837
+dataset/fist/fist2_dark_f00553.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6731610894203186,0.3020766900510204
+dataset/fist/fist2_dark_f00553.jpg,a1_test,fist,S2,Grad-CAM,fist,0.71991366147995,0.3085339604591837
+dataset/fist/fist2_dark_f00553.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6896593570709229,0.3085339604591837
+dataset/fist/fist2_dark_f00553.jpg,a1_test,fist,S4,attention rollout,fist,0.39561280608177185,0.3085339604591837
+dataset/fist/fist2_dark_f00572.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5976194143295288,0.31271922831632654
+dataset/fist/fist2_dark_f00572.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7367205023765564,0.28501674107142855
+dataset/fist/fist2_dark_f00572.jpg,a1_test,fist,S3,Grad-CAM,fist,0.693979024887085,0.28501674107142855
+dataset/fist/fist2_dark_f00572.jpg,a1_test,fist,S4,attention rollout,fist,0.38731124997138977,0.28501674107142855
+dataset/fist/fist2_dark_f00592.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6880192756652832,0.3837292729591837
+dataset/fist/fist2_dark_f00592.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7627663612365723,0.27967554209183676
+dataset/fist/fist2_dark_f00592.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7143635749816895,0.27967554209183676
+dataset/fist/fist2_dark_f00592.jpg,a1_test,fist,S4,attention rollout,fist,0.4692016541957855,0.27967554209183676
+dataset/fist/fist2_dark_f00611.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6607736349105835,0.3601921237244898
+dataset/fist/fist2_dark_f00611.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7360789775848389,0.3026147959183674
+dataset/fist/fist2_dark_f00611.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7201651334762573,0.3026147959183674
+dataset/fist/fist2_dark_f00611.jpg,a1_test,fist,S4,attention rollout,fist,0.40930238366127014,0.3026147959183674
+dataset/fist/fist2_dark_f00631.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6586115956306458,0.4900749362244898
+dataset/fist/fist2_dark_f00631.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6392154693603516,0.2661830357142857
+dataset/fist/fist2_dark_f00631.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6594412922859192,0.2661830357142857
+dataset/fist/fist2_dark_f00631.jpg,a1_test,fist,S4,attention rollout,fist,0.3687800467014313,0.2661830357142857
+dataset/fist/fist2_dark_f00651.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5898191332817078,0.4205795599489796
+dataset/fist/fist2_dark_f00651.jpg,a1_test,fist,S2,Grad-CAM,fist,0.80097895860672,0.47714046556122447
+dataset/fist/fist2_dark_f00651.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7652958035469055,0.47714046556122447
+dataset/fist/fist2_dark_f00651.jpg,a1_test,fist,S4,attention rollout,fist,0.426219642162323,0.47714046556122447
+dataset/fist/fist2_dark_f00670.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5719001293182373,0.4092594068877551
+dataset/fist/fist2_dark_f00670.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7717076539993286,0.48311941964285715
+dataset/fist/fist2_dark_f00670.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7504329681396484,0.48311941964285715
+dataset/fist/fist2_dark_f00670.jpg,a1_test,fist,S4,attention rollout,fist,0.5309596657752991,0.48311941964285715
+dataset/fist/fist2_dark_f00690.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6486731767654419,0.491390306122449
+dataset/fist/fist2_dark_f00690.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7577911019325256,0.4617546237244898
+dataset/fist/fist2_dark_f00690.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7928531765937805,0.4617546237244898
+dataset/fist/fist2_dark_f00690.jpg,a1_test,fist,S4,attention rollout,fist,0.49297577142715454,0.4617546237244898
+dataset/fist/fist2_dark_f00709.jpg,a1_test,fist,B0,Grad-CAM,fist,0.7040144205093384,0.43191964285714285
+dataset/fist/fist2_dark_f00709.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8421255946159363,0.41067442602040816
+dataset/fist/fist2_dark_f00709.jpg,a1_test,fist,S3,Grad-CAM,fist,0.8250681757926941,0.41067442602040816
+dataset/fist/fist2_dark_f00709.jpg,a1_test,fist,S4,attention rollout,fist,0.5941040515899658,0.41067442602040816
+dataset/fist/fist2_dark_f00729.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6902204155921936,0.3774513711734694
+dataset/fist/fist2_dark_f00729.jpg,a1_test,fist,S2,Grad-CAM,fist,0.799592137336731,0.4147401147959184
+dataset/fist/fist2_dark_f00729.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7755022048950195,0.4147401147959184
+dataset/fist/fist2_dark_f00729.jpg,a1_test,fist,S4,attention rollout,fist,0.5402647256851196,0.4147401147959184
+dataset/fist/fist2_dark_f00748.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5888599157333374,0.36403858418367346
+dataset/fist/fist2_dark_f00748.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7619632482528687,0.3813376913265306
+dataset/fist/fist2_dark_f00748.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7632166743278503,0.3813376913265306
+dataset/fist/fist2_dark_f00748.jpg,a1_test,fist,S4,attention rollout,fist,0.5265014171600342,0.3813376913265306
+dataset/fist/fist2_dark_f00768.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5476418137550354,0.33591757015306123
+dataset/fist/fist2_dark_f00768.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7667410969734192,0.44234295280612246
+dataset/fist/fist2_dark_f00768.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7730110883712769,0.44234295280612246
+dataset/fist/fist2_dark_f00768.jpg,a1_test,fist,S4,attention rollout,fist,0.5577976703643799,0.44234295280612246
+dataset/fist/fist2_dark_f00787.jpg,a1_test,fist,B0,Grad-CAM,fist,0.4991828501224518,0.3195750956632653
+dataset/fist/fist2_dark_f00787.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7455766797065735,0.44007095025510207
+dataset/fist/fist2_dark_f00787.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7386945486068726,0.44007095025510207
+dataset/fist/fist2_dark_f00787.jpg,a1_test,fist,S4,attention rollout,fist,0.5500799417495728,0.44007095025510207
+dataset/fist/fist2_dark_f00807.jpg,a1_test,fist,B0,Grad-CAM,fist,0.41493985056877136,0.35012755102040816
+dataset/fist/fist2_dark_f00807.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6236327290534973,0.358219068877551
+dataset/fist/fist2_dark_f00807.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6774136424064636,0.358219068877551
+dataset/fist/fist2_dark_f00807.jpg,a1_test,fist,S4,attention rollout,fist,0.4443025588989258,0.358219068877551
+dataset/fist/fist2_dark_f00826.jpg,a1_test,fist,B0,Grad-CAM,fist,0.537744402885437,0.33434311224489793
+dataset/fist/fist2_dark_f00826.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6761826276779175,0.34550382653061223
+dataset/fist/fist2_dark_f00826.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6482182741165161,0.34550382653061223
+dataset/fist/fist2_dark_f00826.jpg,a1_test,fist,S4,attention rollout,fist,0.3412940502166748,0.34550382653061223
+dataset/fist/fist2_dark_f00846.jpg,a1_test,fist,B0,Grad-CAM,fist,0.5825321078300476,0.32288345025510207
+dataset/fist/fist2_dark_f00846.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7987547516822815,0.46177455357142855
+dataset/fist/fist2_dark_f00846.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7543086409568787,0.46177455357142855
+dataset/fist/fist2_dark_f00846.jpg,a1_test,fist,S4,attention rollout,fist,0.44009920954704285,0.46177455357142855
+dataset/fist/fist2_dark_f00963.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6401240229606628,0.3671875
+dataset/fist/fist2_dark_f00963.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7061963677406311,0.4691685267857143
+dataset/fist/fist2_dark_f00963.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7624147534370422,0.4691685267857143
+dataset/fist/fist2_dark_f00963.jpg,a1_test,fist,S4,attention rollout,fist,0.4844992458820343,0.4691685267857143
+dataset/fist/fist2_dark_f00983.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6641035079956055,0.3521006058673469
+dataset/fist/fist2_dark_f00983.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7954110503196716,0.44736527423469385
+dataset/fist/fist2_dark_f00983.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7523302435874939,0.44736527423469385
+dataset/fist/fist2_dark_f00983.jpg,a1_test,fist,S4,attention rollout,fist,0.3841169774532318,0.44736527423469385
+dataset/fist/fist2_dark_f01002.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6014025807380676,0.32896205357142855
+dataset/fist/fist2_dark_f01002.jpg,a1_test,fist,S2,Grad-CAM,fist,0.752206563949585,0.3954280931122449
+dataset/fist/fist2_dark_f01002.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6958736181259155,0.3954280931122449
+dataset/fist/fist2_dark_f01002.jpg,a1_test,fist,S4,attention rollout,fist,0.35618355870246887,0.3954280931122449
+dataset/fist/fist2_dark_f01022.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6211621165275574,0.3297791772959184
+dataset/fist/fist2_dark_f01022.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8028831481933594,0.4780373086734694
+dataset/fist/fist2_dark_f01022.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7375562191009521,0.4780373086734694
+dataset/fist/fist2_dark_f01022.jpg,a1_test,fist,S4,attention rollout,fist,0.4156034588813782,0.4780373086734694
+dataset/fist/fist2_dark_f01041.jpg,a1_test,fist,B0,Grad-CAM,thumb,0.18685387074947357,0.32224569515306123
+dataset/fist/fist2_dark_f01041.jpg,a1_test,fist,S2,Grad-CAM,fist,0.5544176697731018,0.2033641581632653
+dataset/fist/fist2_dark_f01041.jpg,a1_test,fist,S3,Grad-CAM,fist,0.5596432089805603,0.2033641581632653
+dataset/fist/fist2_dark_f01041.jpg,a1_test,fist,S4,attention rollout,fist,0.28784817457199097,0.2033641581632653
+dataset/fist/fist2_dark_f01061.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6389356255531311,0.3485530931122449
+dataset/fist/fist2_dark_f01061.jpg,a1_test,fist,S2,Grad-CAM,fist,0.5693893432617188,0.2609016262755102
+dataset/fist/fist2_dark_f01061.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6429473161697388,0.2609016262755102
+dataset/fist/fist2_dark_f01061.jpg,a1_test,fist,S4,attention rollout,fist,0.374071329832077,0.2609016262755102
+dataset/fist/fist2_dark_f01080.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6342374086380005,0.2766661352040816
+dataset/fist/fist2_dark_f01080.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8612541556358337,0.41928411989795916
+dataset/fist/fist2_dark_f01080.jpg,a1_test,fist,S3,Grad-CAM,fist,0.8331100344657898,0.41928411989795916
+dataset/fist/fist2_dark_f01080.jpg,a1_test,fist,S4,attention rollout,fist,0.5347496271133423,0.41928411989795916
+dataset/fist/fist2_dark_f01100.jpg,a1_test,fist,B0,Grad-CAM,fist,0.52352374792099,0.31431361607142855
+dataset/fist/fist2_dark_f01100.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8238281607627869,0.43825733418367346
+dataset/fist/fist2_dark_f01100.jpg,a1_test,fist,S3,Grad-CAM,fist,0.8031081557273865,0.43825733418367346
+dataset/fist/fist2_dark_f01100.jpg,a1_test,fist,S4,attention rollout,fist,0.4711572527885437,0.43825733418367346
+dataset/fist/fist2_dark_f01119.jpg,a1_test,fist,B0,Grad-CAM,fist,0.7168946862220764,0.5369698660714286
+dataset/fist/fist2_dark_f01119.jpg,a1_test,fist,S2,Grad-CAM,fist,0.8463347554206848,0.47030452806122447
+dataset/fist/fist2_dark_f01119.jpg,a1_test,fist,S3,Grad-CAM,fist,0.8186304569244385,0.47030452806122447
+dataset/fist/fist2_dark_f01119.jpg,a1_test,fist,S4,attention rollout,fist,0.5661754012107849,0.47030452806122447
+dataset/fist/fist2_dark_f01139.jpg,a1_test,fist,B0,Grad-CAM,fist,0.37092137336730957,0.2180125956632653
+dataset/fist/fist2_dark_f01139.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6447206735610962,0.33553890306122447
+dataset/fist/fist2_dark_f01139.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6036382913589478,0.33553890306122447
+dataset/fist/fist2_dark_f01139.jpg,a1_test,fist,S4,attention rollout,fist,0.5099549293518066,0.33553890306122447
+dataset/fist/fist2_dark_f01158.jpg,a1_test,fist,B0,Grad-CAM,fist,0.389446884393692,0.3855030293367347
+dataset/fist/fist2_dark_f01158.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7829858660697937,0.4064891581632653
+dataset/fist/fist2_dark_f01158.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7662427425384521,0.4064891581632653
+dataset/fist/fist2_dark_f01158.jpg,a1_test,fist,S4,attention rollout,fist,0.45218321681022644,0.4064891581632653
+dataset/fist/fist2_dark_f01178.jpg,a1_test,fist,B0,Grad-CAM,fist,0.4766960144042969,0.29625717474489793
+dataset/fist/fist2_dark_f01178.jpg,a1_test,fist,S2,Grad-CAM,fist,0.6837869882583618,0.3116828762755102
+dataset/fist/fist2_dark_f01178.jpg,a1_test,fist,S3,Grad-CAM,fist,0.6629540920257568,0.3116828762755102
+dataset/fist/fist2_dark_f01178.jpg,a1_test,fist,S4,attention rollout,fist,0.3342881202697754,0.3116828762755102
+dataset/fist/fist2_dark_f01197.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6318438649177551,0.39375398596938777
+dataset/fist/fist2_dark_f01197.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7713729739189148,0.43648357780612246
+dataset/fist/fist2_dark_f01197.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7367768287658691,0.43648357780612246
+dataset/fist/fist2_dark_f01197.jpg,a1_test,fist,S4,attention rollout,fist,0.4661455452442169,0.43648357780612246
+dataset/fist/fist2_dark_f01217.jpg,a1_test,fist,B0,Grad-CAM,fist,0.6611797213554382,0.4243662308673469
+dataset/fist/fist2_dark_f01217.jpg,a1_test,fist,S2,Grad-CAM,fist,0.7691677212715149,0.5
+dataset/fist/fist2_dark_f01217.jpg,a1_test,fist,S3,Grad-CAM,fist,0.7814858555793762,0.5
+dataset/fist/fist2_dark_f01217.jpg,a1_test,fist,S4,attention rollout,fist,0.4727224111557007,0.5
+dataset/peace/peace2_f00078.jpg,a1_test,peace,B0,Grad-CAM,peace,0.45813241600990295,0.24583466198979592
+dataset/peace/peace2_f00078.jpg,a1_test,peace,S2,Grad-CAM,peace,0.44981256127357483,0.25133529974489793
+dataset/peace/peace2_f00078.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3827490508556366,0.25133529974489793
+dataset/peace/peace2_f00078.jpg,a1_test,peace,S4,attention rollout,peace,0.2613697350025177,0.25133529974489793
+dataset/peace/peace2_f00101.jpg,a1_test,peace,B0,Grad-CAM,peace,0.45810291171073914,0.2365672831632653
+dataset/peace/peace2_f00101.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4721178412437439,0.26211734693877553
+dataset/peace/peace2_f00101.jpg,a1_test,peace,S3,Grad-CAM,peace,0.43388861417770386,0.26211734693877553
+dataset/peace/peace2_f00101.jpg,a1_test,peace,S4,attention rollout,peace,0.259156197309494,0.26211734693877553
+dataset/peace/peace2_f00124.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4590701162815094,0.22353316326530612
+dataset/peace/peace2_f00124.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4475327134132385,0.24529655612244897
+dataset/peace/peace2_f00124.jpg,a1_test,peace,S3,Grad-CAM,peace,0.4118300676345825,0.24529655612244897
+dataset/peace/peace2_f00124.jpg,a1_test,peace,S4,attention rollout,peace,0.3258930742740631,0.24529655612244897
+dataset/peace/peace2_f00148.jpg,a1_test,peace,B0,Grad-CAM,peace,0.47519710659980774,0.18191964285714285
+dataset/peace/peace2_f00148.jpg,a1_test,peace,S2,Grad-CAM,peace,0.423841267824173,0.20384247448979592
+dataset/peace/peace2_f00148.jpg,a1_test,peace,S3,Grad-CAM,peace,0.38283294439315796,0.20384247448979592
+dataset/peace/peace2_f00148.jpg,a1_test,peace,S4,attention rollout,peace,0.3038688600063324,0.20384247448979592
+dataset/peace/peace2_f00171.jpg,a1_test,peace,B0,Grad-CAM,peace,0.34507620334625244,0.14343510841836735
+dataset/peace/peace2_f00171.jpg,a1_test,peace,S2,Grad-CAM,peace,0.28066638112068176,0.14570711096938777
+dataset/peace/peace2_f00171.jpg,a1_test,peace,S3,Grad-CAM,peace,0.19506914913654327,0.14570711096938777
+dataset/peace/peace2_f00171.jpg,a1_test,peace,S4,attention rollout,peace,0.24087893962860107,0.14570711096938777
+dataset/peace/peace2_f00195.jpg,a1_test,peace,B0,Grad-CAM,peace,0.34389644861221313,0.12001753826530612
+dataset/peace/peace2_f00195.jpg,a1_test,peace,S2,Grad-CAM,peace,0.30571919679641724,0.15623007015306123
+dataset/peace/peace2_f00195.jpg,a1_test,peace,S3,Grad-CAM,peace,0.23772338032722473,0.15623007015306123
+dataset/peace/peace2_f00195.jpg,a1_test,peace,S4,attention rollout,peace,0.2852493226528168,0.15623007015306123
+dataset/peace/peace2_f00218.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4209091067314148,0.1400470344387755
+dataset/peace/peace2_f00218.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3315057158470154,0.15214445153061223
+dataset/peace/peace2_f00218.jpg,a1_test,peace,S3,Grad-CAM,peace,0.2822860777378082,0.15214445153061223
+dataset/peace/peace2_f00218.jpg,a1_test,peace,S4,attention rollout,peace,0.2687423825263977,0.15214445153061223
+dataset/peace/peace2_f00242.jpg,a1_test,peace,B0,Grad-CAM,peace,0.49018150568008423,0.18518813775510204
+dataset/peace/peace2_f00242.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4463344216346741,0.21609933035714285
+dataset/peace/peace2_f00242.jpg,a1_test,peace,S3,Grad-CAM,peace,0.33911994099617004,0.21609933035714285
+dataset/peace/peace2_f00242.jpg,a1_test,peace,S4,attention rollout,peace,0.2718988358974457,0.21609933035714285
+dataset/peace/peace2_f00265.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5298396944999695,0.22022480867346939
+dataset/peace/peace2_f00265.jpg,a1_test,peace,S2,Grad-CAM,peace,0.42264118790626526,0.23846061862244897
+dataset/peace/peace2_f00265.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3432638645172119,0.23846061862244897
+dataset/peace/peace2_f00265.jpg,a1_test,peace,S4,attention rollout,peace,0.3752525746822357,0.23846061862244897
+dataset/peace/peace2_f00288.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5498696565628052,0.24071269132653061
+dataset/peace/peace2_f00288.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4391134977340698,0.2502590880102041
+dataset/peace/peace2_f00288.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3628385663032532,0.2502590880102041
+dataset/peace/peace2_f00288.jpg,a1_test,peace,S4,attention rollout,peace,0.34467849135398865,0.2502590880102041
+dataset/peace/peace2_f00312.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5595169067382812,0.25892857142857145
+dataset/peace/peace2_f00312.jpg,a1_test,peace,S2,Grad-CAM,peace,0.438302606344223,0.24619339923469388
+dataset/peace/peace2_f00312.jpg,a1_test,peace,S3,Grad-CAM,peace,0.36924082040786743,0.24619339923469388
+dataset/peace/peace2_f00312.jpg,a1_test,peace,S4,attention rollout,peace,0.3583329916000366,0.24619339923469388
+dataset/peace/peace2_f00335.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5305395126342773,0.2676379145408163
+dataset/peace/peace2_f00335.jpg,a1_test,peace,S2,Grad-CAM,peace,0.42686131596565247,0.2550422512755102
+dataset/peace/peace2_f00335.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3553076982498169,0.2550422512755102
+dataset/peace/peace2_f00335.jpg,a1_test,peace,S4,attention rollout,peace,0.27480918169021606,0.2550422512755102
+dataset/peace/peace2_f00359.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5509836673736572,0.29404496173469385
+dataset/peace/peace2_f00359.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4323011040687561,0.2590282206632653
+dataset/peace/peace2_f00359.jpg,a1_test,peace,S3,Grad-CAM,peace,0.383601576089859,0.2590282206632653
+dataset/peace/peace2_f00359.jpg,a1_test,peace,S4,attention rollout,peace,0.2869611084461212,0.2590282206632653
+dataset/peace/peace2_f00382.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5788770914077759,0.34062101403061223
+dataset/peace/peace2_f00382.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4294910728931427,0.2518335459183674
+dataset/peace/peace2_f00382.jpg,a1_test,peace,S3,Grad-CAM,peace,0.35720670223236084,0.2518335459183674
+dataset/peace/peace2_f00382.jpg,a1_test,peace,S4,attention rollout,peace,0.28426408767700195,0.2518335459183674
+dataset/peace/peace2_f00406.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5808200240135193,0.3436304209183674
+dataset/peace/peace2_f00406.jpg,a1_test,peace,S2,Grad-CAM,peace,0.41253164410591125,0.25199298469387754
+dataset/peace/peace2_f00406.jpg,a1_test,peace,S3,Grad-CAM,peace,0.36364269256591797,0.25199298469387754
+dataset/peace/peace2_f00406.jpg,a1_test,peace,S4,attention rollout,peace,0.2934110462665558,0.25199298469387754
+dataset/peace/peace2_f00429.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5742881298065186,0.3052256058673469
+dataset/peace/peace2_f00429.jpg,a1_test,peace,S2,Grad-CAM,peace,0.40474140644073486,0.25619818239795916
+dataset/peace/peace2_f00429.jpg,a1_test,peace,S3,Grad-CAM,peace,0.34226730465888977,0.25619818239795916
+dataset/peace/peace2_f00429.jpg,a1_test,peace,S4,attention rollout,peace,0.3942161202430725,0.25619818239795916
+dataset/peace/peace2_f00452.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5760954022407532,0.3068797831632653
+dataset/peace/peace2_f00452.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4056834876537323,0.2573142538265306
+dataset/peace/peace2_f00452.jpg,a1_test,peace,S3,Grad-CAM,peace,0.33964475989341736,0.2573142538265306
+dataset/peace/peace2_f00452.jpg,a1_test,peace,S4,attention rollout,peace,0.31224796175956726,0.2573142538265306
+dataset/peace/peace2_f00476.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5493807792663574,0.3165258290816326
+dataset/peace/peace2_f00476.jpg,a1_test,peace,S2,Grad-CAM,peace,0.42587074637413025,0.2719826211734694
+dataset/peace/peace2_f00476.jpg,a1_test,peace,S3,Grad-CAM,peace,0.36167967319488525,0.2719826211734694
+dataset/peace/peace2_f00476.jpg,a1_test,peace,S4,attention rollout,peace,0.2780536115169525,0.2719826211734694
+dataset/peace/peace2_f00499.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5221331119537354,0.28714923469387754
+dataset/peace/peace2_f00499.jpg,a1_test,peace,S2,Grad-CAM,peace,0.44676825404167175,0.2596460459183674
+dataset/peace/peace2_f00499.jpg,a1_test,peace,S3,Grad-CAM,peace,0.35231947898864746,0.2596460459183674
+dataset/peace/peace2_f00499.jpg,a1_test,peace,S4,attention rollout,peace,0.26612231135368347,0.2596460459183674
+dataset/peace/peace2_f00523.jpg,a1_test,peace,B0,Grad-CAM,peace,0.42315804958343506,0.18704161352040816
+dataset/peace/peace2_f00523.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3445834517478943,0.18558673469387754
+dataset/peace/peace2_f00523.jpg,a1_test,peace,S3,Grad-CAM,peace,0.2584973871707916,0.18558673469387754
+dataset/peace/peace2_f00523.jpg,a1_test,peace,S4,attention rollout,peace,0.22118791937828064,0.18558673469387754
+dataset/peace/peace2_f00546.jpg,a1_test,peace,B0,Grad-CAM,peace,0.48403045535087585,0.25155452806122447
+dataset/peace/peace2_f00546.jpg,a1_test,peace,S2,Grad-CAM,peace,0.48705926537513733,0.25173389668367346
+dataset/peace/peace2_f00546.jpg,a1_test,peace,S3,Grad-CAM,peace,0.4277525842189789,0.25173389668367346
+dataset/peace/peace2_f00546.jpg,a1_test,peace,S4,attention rollout,peace,0.274665504693985,0.25173389668367346
+dataset/peace/peace2_f00570.jpg,a1_test,peace,B0,Grad-CAM,peace,0.46913453936576843,0.2795958227040816
+dataset/peace/peace2_f00570.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4663073420524597,0.2976921237244898
+dataset/peace/peace2_f00570.jpg,a1_test,peace,S3,Grad-CAM,peace,0.42445048689842224,0.2976921237244898
+dataset/peace/peace2_f00570.jpg,a1_test,peace,S4,attention rollout,peace,0.39108774065971375,0.2976921237244898
+dataset/peace/peace2_f00593.jpg,a1_test,peace,B0,Grad-CAM,peace,0.44677403569221497,0.27120535714285715
+dataset/peace/peace2_f00593.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4863792657852173,0.33434311224489793
+dataset/peace/peace2_f00593.jpg,a1_test,peace,S3,Grad-CAM,peace,0.38370105624198914,0.33434311224489793
+dataset/peace/peace2_f00593.jpg,a1_test,peace,S4,attention rollout,peace,0.4089142382144928,0.33434311224489793
+dataset/peace/peace2_f00616.jpg,a1_test,peace,B0,Grad-CAM,peace,0.46559426188468933,0.259586256377551
+dataset/peace/peace2_f00616.jpg,a1_test,peace,S2,Grad-CAM,peace,0.513809859752655,0.330257493622449
+dataset/peace/peace2_f00616.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3680289387702942,0.330257493622449
+dataset/peace/peace2_f00616.jpg,a1_test,peace,S4,attention rollout,peace,0.3041022717952728,0.330257493622449
+dataset/peace/peace2_f00640.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4340442419052124,0.2335578762755102
+dataset/peace/peace2_f00640.jpg,a1_test,peace,S2,Grad-CAM,peace,0.5234777331352234,0.3983777104591837
+dataset/peace/peace2_f00640.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3681105673313141,0.3983777104591837
+dataset/peace/peace2_f00640.jpg,a1_test,peace,S4,attention rollout,peace,0.4109058976173401,0.3983777104591837
+dataset/peace/peace2_f00663.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4255903959274292,0.24123086734693877
+dataset/peace/peace2_f00663.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4910777509212494,0.3068797831632653
+dataset/peace/peace2_f00663.jpg,a1_test,peace,S3,Grad-CAM,peace,0.35386353731155396,0.3068797831632653
+dataset/peace/peace2_f00663.jpg,a1_test,peace,S4,attention rollout,peace,0.28195101022720337,0.3068797831632653
+dataset/peace/peace2_f00687.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4811619818210602,0.2833227040816326
+dataset/peace/peace2_f00687.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4640612006187439,0.302913743622449
+dataset/peace/peace2_f00687.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3250252306461334,0.302913743622449
+dataset/peace/peace2_f00687.jpg,a1_test,peace,S4,attention rollout,peace,0.3330649733543396,0.302913743622449
+dataset/peace/peace2_f00710.jpg,a1_test,peace,B0,Grad-CAM,peace,0.46821218729019165,0.27281967474489793
+dataset/peace/peace2_f00710.jpg,a1_test,peace,S2,Grad-CAM,peace,0.49258944392204285,0.30032286352040816
+dataset/peace/peace2_f00710.jpg,a1_test,peace,S3,Grad-CAM,peace,0.42107370495796204,0.30032286352040816
+dataset/peace/peace2_f00710.jpg,a1_test,peace,S4,attention rollout,peace,0.38609156012535095,0.30032286352040816
+dataset/peace/peace2_f00734.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4651726484298706,0.21010044642857142
+dataset/peace/peace2_f00734.jpg,a1_test,peace,S2,Grad-CAM,peace,0.37021297216415405,0.17980707908163265
+dataset/peace/peace2_f00734.jpg,a1_test,peace,S3,Grad-CAM,peace,0.2008303999900818,0.17980707908163265
+dataset/peace/peace2_f00734.jpg,a1_test,peace,S4,attention rollout,peace,0.21719534695148468,0.17980707908163265
+dataset/peace/peace2_f00757.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4085957705974579,0.21091757015306123
+dataset/peace/peace2_f00757.jpg,a1_test,peace,S2,Grad-CAM,peace,0.315545916557312,0.17265226403061223
+dataset/peace/peace2_f00757.jpg,a1_test,peace,S3,Grad-CAM,peace,0.27210694551467896,0.17265226403061223
+dataset/peace/peace2_f00757.jpg,a1_test,peace,S4,attention rollout,peace,0.2770673930644989,0.17265226403061223
+dataset/peace/peace2_f00781.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5638811588287354,0.3296595982142857
+dataset/peace/peace2_f00781.jpg,a1_test,peace,S2,Grad-CAM,peace,0.440035879611969,0.26297433035714285
+dataset/peace/peace2_f00781.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3370542526245117,0.26297433035714285
+dataset/peace/peace2_f00781.jpg,a1_test,peace,S4,attention rollout,peace,0.2939390242099762,0.26297433035714285
+dataset/peace/peace2_f00804.jpg,a1_test,peace,B0,Grad-CAM,peace,0.592110812664032,0.3604113520408163
+dataset/peace/peace2_f00804.jpg,a1_test,peace,S2,Grad-CAM,peace,0.43279027938842773,0.2771045918367347
+dataset/peace/peace2_f00804.jpg,a1_test,peace,S3,Grad-CAM,peace,0.32298433780670166,0.2771045918367347
+dataset/peace/peace2_f00804.jpg,a1_test,peace,S4,attention rollout,peace,0.28710487484931946,0.2771045918367347
+dataset/peace/peace2_f00827.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5977631211280823,0.38649952168367346
+dataset/peace/peace2_f00827.jpg,a1_test,peace,S2,Grad-CAM,peace,0.46028801798820496,0.27700494260204084
+dataset/peace/peace2_f00827.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3370542526245117,0.27700494260204084
+dataset/peace/peace2_f00827.jpg,a1_test,peace,S4,attention rollout,peace,0.30136701464653015,0.27700494260204084
+dataset/peace/peace2_f00851.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6260705590248108,0.3626036352040816
+dataset/peace/peace2_f00851.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4925568699836731,0.28212691326530615
+dataset/peace/peace2_f00851.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3817073106765747,0.28212691326530615
+dataset/peace/peace2_f00851.jpg,a1_test,peace,S4,attention rollout,peace,0.3263189196586609,0.28212691326530615
+dataset/peace/peace2_f00874.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6146607995033264,0.35347576530612246
+dataset/peace/peace2_f00874.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4810081720352173,0.25424505739795916
+dataset/peace/peace2_f00874.jpg,a1_test,peace,S3,Grad-CAM,peace,0.40095603466033936,0.25424505739795916
+dataset/peace/peace2_f00874.jpg,a1_test,peace,S4,attention rollout,peace,0.2836705148220062,0.25424505739795916
+dataset/peace/peace2_f00898.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5664792060852051,0.363460618622449
+dataset/peace/peace2_f00898.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4046519100666046,0.2186902104591837
+dataset/peace/peace2_f00898.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3286728262901306,0.2186902104591837
+dataset/peace/peace2_f00898.jpg,a1_test,peace,S4,attention rollout,peace,0.3525232970714569,0.2186902104591837
+dataset/peace/peace2_f00921.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5637089014053345,0.3039500956632653
+dataset/peace/peace2_f00921.jpg,a1_test,peace,S2,Grad-CAM,peace,0.40434467792510986,0.21097735969387754
+dataset/peace/peace2_f00921.jpg,a1_test,peace,S3,Grad-CAM,peace,0.32575446367263794,0.21097735969387754
+dataset/peace/peace2_f00921.jpg,a1_test,peace,S4,attention rollout,peace,0.2912720739841461,0.21097735969387754
+dataset/peace/peace2_f00945.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5240755081176758,0.30215640943877553
+dataset/peace/peace2_f00945.jpg,a1_test,peace,S2,Grad-CAM,peace,0.37777337431907654,0.20176977040816327
+dataset/peace/peace2_f00945.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3100329041481018,0.20176977040816327
+dataset/peace/peace2_f00945.jpg,a1_test,peace,S4,attention rollout,peace,0.3143730163574219,0.20176977040816327
+dataset/peace/peace2_f00968.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4830455482006073,0.31578842474489793
+dataset/peace/peace2_f00968.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3594174087047577,0.20533721301020408
+dataset/peace/peace2_f00968.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3101806044578552,0.20533721301020408
+dataset/peace/peace2_f00968.jpg,a1_test,peace,S4,attention rollout,peace,0.35513246059417725,0.20533721301020408
+dataset/peace/peace2_f00991.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6022644639015198,0.3325294961734694
+dataset/peace/peace2_f00991.jpg,a1_test,peace,S2,Grad-CAM,peace,0.43316712975502014,0.22708067602040816
+dataset/peace/peace2_f00991.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3628562092781067,0.22708067602040816
+dataset/peace/peace2_f00991.jpg,a1_test,peace,S4,attention rollout,peace,0.3721485435962677,0.22708067602040816
+dataset/peace/peace2_f01015.jpg,a1_test,peace,B0,Grad-CAM,peace,0.588040828704834,0.31654575892857145
+dataset/peace/peace2_f01015.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4410136342048645,0.23357780612244897
+dataset/peace/peace2_f01015.jpg,a1_test,peace,S3,Grad-CAM,peace,0.35621166229248047,0.23357780612244897
+dataset/peace/peace2_f01015.jpg,a1_test,peace,S4,attention rollout,peace,0.34469300508499146,0.23357780612244897
+dataset/peace/peace2_f01038.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5828843116760254,0.2748325892857143
+dataset/peace/peace2_f01038.jpg,a1_test,peace,S2,Grad-CAM,peace,0.49932700395584106,0.25392617984693877
+dataset/peace/peace2_f01038.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3851780891418457,0.25392617984693877
+dataset/peace/peace2_f01038.jpg,a1_test,peace,S4,attention rollout,peace,0.31084275245666504,0.25392617984693877
+dataset/peace/peace2_f01062.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6447703838348389,0.38538345025510207
+dataset/peace/peace2_f01062.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4458105266094208,0.2316047512755102
+dataset/peace/peace2_f01062.jpg,a1_test,peace,S3,Grad-CAM,peace,0.37284496426582336,0.2316047512755102
+dataset/peace/peace2_f01062.jpg,a1_test,peace,S4,attention rollout,peace,0.2920161485671997,0.2316047512755102
+dataset/peace/peace2_f01085.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6251146197319031,0.4011280293367347
+dataset/peace/peace2_f01085.jpg,a1_test,peace,S2,Grad-CAM,peace,0.40146487951278687,0.2235530931122449
+dataset/peace/peace2_f01085.jpg,a1_test,peace,S3,Grad-CAM,peace,0.37110307812690735,0.2235530931122449
+dataset/peace/peace2_f01085.jpg,a1_test,peace,S4,attention rollout,peace,0.3562820255756378,0.2235530931122449
+dataset/peace/peace2_f01109.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6621159911155701,0.361148756377551
+dataset/peace/peace2_f01109.jpg,a1_test,peace,S2,Grad-CAM,peace,0.36027413606643677,0.21886957908163265
+dataset/peace/peace2_f01109.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3235047161579132,0.21886957908163265
+dataset/peace/peace2_f01109.jpg,a1_test,peace,S4,attention rollout,peace,0.3114873766899109,0.21886957908163265
+dataset/peace/peace2_f01132.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6729898452758789,0.31845902423469385
+dataset/peace/peace2_f01132.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3551516532897949,0.21209343112244897
+dataset/peace/peace2_f01132.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3145390748977661,0.21209343112244897
+dataset/peace/peace2_f01132.jpg,a1_test,peace,S4,attention rollout,peace,0.37326106429100037,0.21209343112244897
+dataset/peace/peace2_f01155.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6361490488052368,0.312320631377551
+dataset/peace/peace2_f01155.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3823217451572418,0.20820711096938777
+dataset/peace/peace2_f01155.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3096252381801605,0.20820711096938777
+dataset/peace/peace2_f01155.jpg,a1_test,peace,S4,attention rollout,peace,0.291666716337204,0.20820711096938777
+dataset/peace/peace2_f01179.jpg,a1_test,peace,B0,Grad-CAM,peace,0.6418939828872681,0.32997847576530615
+dataset/peace/peace2_f01179.jpg,a1_test,peace,S2,Grad-CAM,peace,0.40949520468711853,0.22704081632653061
+dataset/peace/peace2_f01179.jpg,a1_test,peace,S3,Grad-CAM,peace,0.36009281873703003,0.22704081632653061
+dataset/peace/peace2_f01179.jpg,a1_test,peace,S4,attention rollout,peace,0.31970280408859253,0.22704081632653061
+dataset/peace/peace2_f01202.jpg,a1_test,peace,B0,Grad-CAM,peace,0.570967972278595,0.28908242984693877
+dataset/peace/peace2_f01202.jpg,a1_test,peace,S2,Grad-CAM,peace,0.43554991483688354,0.24533641581632654
+dataset/peace/peace2_f01202.jpg,a1_test,peace,S3,Grad-CAM,peace,0.36275041103363037,0.24533641581632654
+dataset/peace/peace2_f01202.jpg,a1_test,peace,S4,attention rollout,peace,0.3898470401763916,0.24533641581632654
+dataset/peace/peace2_f01226.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4811145067214966,0.24589445153061223
+dataset/peace/peace2_f01226.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3918544054031372,0.22181919642857142
+dataset/peace/peace2_f01226.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3241429030895233,0.22181919642857142
+dataset/peace/peace2_f01226.jpg,a1_test,peace,S4,attention rollout,peace,0.3353048264980316,0.22181919642857142
+dataset/peace/peace2_f01249.jpg,a1_test,peace,B0,Grad-CAM,peace,0.44453880190849304,0.20200892857142858
+dataset/peace/peace2_f01249.jpg,a1_test,peace,S2,Grad-CAM,peace,0.3692764639854431,0.21041932397959184
+dataset/peace/peace2_f01249.jpg,a1_test,peace,S3,Grad-CAM,peace,0.3302096426486969,0.21041932397959184
+dataset/peace/peace2_f01249.jpg,a1_test,peace,S4,attention rollout,peace,0.21921610832214355,0.21041932397959184
+dataset/peace/peace2_f01273.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4805715084075928,0.35877710459183676
+dataset/peace/peace2_f01273.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4767911434173584,0.31263950892857145
+dataset/peace/peace2_f01273.jpg,a1_test,peace,S3,Grad-CAM,peace,0.4045701324939728,0.31263950892857145
+dataset/peace/peace2_f01273.jpg,a1_test,peace,S4,attention rollout,peace,0.2906460762023926,0.31263950892857145
+dataset/peace/peace2_f01296.jpg,a1_test,peace,B0,Grad-CAM,peace,0.549658477306366,0.4099968112244898
+dataset/peace/peace2_f01296.jpg,a1_test,peace,S2,Grad-CAM,peace,0.5180860757827759,0.3580795599489796
+dataset/peace/peace2_f01296.jpg,a1_test,peace,S3,Grad-CAM,peace,0.40994808077812195,0.3580795599489796
+dataset/peace/peace2_f01296.jpg,a1_test,peace,S4,attention rollout,peace,0.3216181695461273,0.3580795599489796
+dataset/peace/peace2_f01319.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5056840777397156,0.37539859693877553
+dataset/peace/peace2_f01319.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4813043475151062,0.32615194515306123
+dataset/peace/peace2_f01319.jpg,a1_test,peace,S3,Grad-CAM,peace,0.4358040392398834,0.32615194515306123
+dataset/peace/peace2_f01319.jpg,a1_test,peace,S4,attention rollout,peace,0.3075796067714691,0.32615194515306123
+dataset/peace/peace2_f01343.jpg,a1_test,peace,B0,Grad-CAM,peace,0.515869140625,0.2653061224489796
+dataset/peace/peace2_f01343.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4371858835220337,0.30080117984693877
+dataset/peace/peace2_f01343.jpg,a1_test,peace,S3,Grad-CAM,peace,0.4042898714542389,0.30080117984693877
+dataset/peace/peace2_f01343.jpg,a1_test,peace,S4,attention rollout,peace,0.3020126521587372,0.30080117984693877
+dataset/peace/peace2_f01366.jpg,a1_test,peace,B0,Grad-CAM,peace,0.4937874972820282,0.2073700573979592
+dataset/peace/peace2_f01366.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4970853626728058,0.3286232461734694
+dataset/peace/peace2_f01366.jpg,a1_test,peace,S3,Grad-CAM,peace,0.4286559820175171,0.3286232461734694
+dataset/peace/peace2_f01366.jpg,a1_test,peace,S4,attention rollout,peace,0.41554906964302063,0.3286232461734694
+dataset/peace/peace2_f01390.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5534051656723022,0.18355389030612246
+dataset/peace/peace2_f01390.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4391912817955017,0.2508569834183674
+dataset/peace/peace2_f01390.jpg,a1_test,peace,S3,Grad-CAM,peace,0.23465818166732788,0.2508569834183674
+dataset/peace/peace2_f01390.jpg,a1_test,peace,S4,attention rollout,peace,0.3253481388092041,0.2508569834183674
+dataset/peace/peace2_f01413.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5574296712875366,0.19013073979591838
+dataset/peace/peace2_f01413.jpg,a1_test,peace,S2,Grad-CAM,peace,0.49246153235435486,0.29013871173469385
+dataset/peace/peace2_f01413.jpg,a1_test,peace,S3,Grad-CAM,peace,0.2971366345882416,0.29013871173469385
+dataset/peace/peace2_f01413.jpg,a1_test,peace,S4,attention rollout,peace,0.4056518077850342,0.29013871173469385
+dataset/peace/peace2_f01437.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5219262838363647,0.28208705357142855
+dataset/peace/peace2_f01437.jpg,a1_test,peace,S2,Grad-CAM,peace,0.4700736999511719,0.3393455038265306
+dataset/peace/peace2_f01437.jpg,a1_test,peace,S3,Grad-CAM,peace,0.33953940868377686,0.3393455038265306
+dataset/peace/peace2_f01437.jpg,a1_test,peace,S4,attention rollout,peace,0.28387653827667236,0.3393455038265306
+dataset/peace/peace2_f01460.jpg,a1_test,peace,B0,Grad-CAM,peace,0.5173730254173279,0.28886320153061223
+dataset/peace/peace2_f01460.jpg,a1_test,peace,S2,Grad-CAM,peace,0.51064532995224,0.29830994897959184
+dataset/peace/peace2_f01460.jpg,a1_test,peace,S3,Grad-CAM,peace,0.38261932134628296,0.29830994897959184
+dataset/peace/peace2_f01460.jpg,a1_test,peace,S4,attention rollout,peace,0.3087827265262604,0.29830994897959184
+dataset/thumb/thumb2_f00044.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5384339690208435,0.26891342474489793
+dataset/thumb/thumb2_f00044.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.48320019245147705,0.23294005102040816
+dataset/thumb/thumb2_f00044.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.493648499250412,0.23294005102040816
+dataset/thumb/thumb2_f00044.jpg,a1_test,thumb,S4,attention rollout,thumb,0.22980016469955444,0.23294005102040816
+dataset/thumb/thumb2_f00053.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5439148545265198,0.26516661352040816
+dataset/thumb/thumb2_f00053.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.49899768829345703,0.2352718431122449
+dataset/thumb/thumb2_f00053.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5073566436767578,0.2352718431122449
+dataset/thumb/thumb2_f00053.jpg,a1_test,thumb,S4,attention rollout,thumb,0.27823489904403687,0.2352718431122449
+dataset/thumb/thumb2_f00063.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5496187806129456,0.26076211734693877
+dataset/thumb/thumb2_f00063.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5040403604507446,0.2429249043367347
+dataset/thumb/thumb2_f00063.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.507163941860199,0.2429249043367347
+dataset/thumb/thumb2_f00063.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2821843922138214,0.2429249043367347
+dataset/thumb/thumb2_f00073.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5341218709945679,0.25424505739795916
+dataset/thumb/thumb2_f00073.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5044162273406982,0.24119100765306123
+dataset/thumb/thumb2_f00073.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5042125582695007,0.24119100765306123
+dataset/thumb/thumb2_f00073.jpg,a1_test,thumb,S4,attention rollout,thumb,0.26346591114997864,0.24119100765306123
+dataset/thumb/thumb2_f00083.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5200884342193604,0.2367267219387755
+dataset/thumb/thumb2_f00083.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4845593273639679,0.2321827168367347
+dataset/thumb/thumb2_f00083.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.46944278478622437,0.2321827168367347
+dataset/thumb/thumb2_f00083.jpg,a1_test,thumb,S4,attention rollout,thumb,0.35195374488830566,0.2321827168367347
+dataset/thumb/thumb2_f00093.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5163511037826538,0.22367267219387754
+dataset/thumb/thumb2_f00093.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.47917667031288147,0.2220782844387755
+dataset/thumb/thumb2_f00093.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.46082937717437744,0.2220782844387755
+dataset/thumb/thumb2_f00093.jpg,a1_test,thumb,S4,attention rollout,thumb,0.23423618078231812,0.2220782844387755
+dataset/thumb/thumb2_f00103.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4878420829772949,0.2151825573979592
+dataset/thumb/thumb2_f00103.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.48610222339630127,0.21942761479591838
+dataset/thumb/thumb2_f00103.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4697808623313904,0.21942761479591838
+dataset/thumb/thumb2_f00103.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2246941775083542,0.21942761479591838
+dataset/thumb/thumb2_f00113.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4842498302459717,0.2029655612244898
+dataset/thumb/thumb2_f00113.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.45187169313430786,0.20886479591836735
+dataset/thumb/thumb2_f00113.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4426916241645813,0.20886479591836735
+dataset/thumb/thumb2_f00113.jpg,a1_test,thumb,S4,attention rollout,thumb,0.23782558739185333,0.20886479591836735
+dataset/thumb/thumb2_f00123.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4589800238609314,0.19459502551020408
+dataset/thumb/thumb2_f00123.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.44109684228897095,0.19660794005102042
+dataset/thumb/thumb2_f00123.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4332530200481415,0.19660794005102042
+dataset/thumb/thumb2_f00123.jpg,a1_test,thumb,S4,attention rollout,thumb,0.21394801139831543,0.19660794005102042
+dataset/thumb/thumb2_f00133.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4776343107223511,0.19407684948979592
+dataset/thumb/thumb2_f00133.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.46786752343177795,0.20701132015306123
+dataset/thumb/thumb2_f00133.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4747702181339264,0.20701132015306123
+dataset/thumb/thumb2_f00133.jpg,a1_test,thumb,S4,attention rollout,thumb,0.290142685174942,0.20701132015306123
+dataset/thumb/thumb2_f00143.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4720556437969208,0.2051379145408163
+dataset/thumb/thumb2_f00143.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4968022406101227,0.2207629145408163
+dataset/thumb/thumb2_f00143.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.49209991097450256,0.2207629145408163
+dataset/thumb/thumb2_f00143.jpg,a1_test,thumb,S4,attention rollout,thumb,0.23539748787879944,0.2207629145408163
+dataset/thumb/thumb2_f00152.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5062159895896912,0.2247688137755102
+dataset/thumb/thumb2_f00152.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4915306866168976,0.23387675382653061
+dataset/thumb/thumb2_f00152.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5247083306312561,0.23387675382653061
+dataset/thumb/thumb2_f00152.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2486366629600525,0.23387675382653061
+dataset/thumb/thumb2_f00162.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5019147992134094,0.24378188775510204
+dataset/thumb/thumb2_f00162.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4689401090145111,0.22999043367346939
+dataset/thumb/thumb2_f00162.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5138097405433655,0.22999043367346939
+dataset/thumb/thumb2_f00162.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2991360127925873,0.22999043367346939
+dataset/thumb/thumb2_f00172.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5145153403282166,0.26249601403061223
+dataset/thumb/thumb2_f00172.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.46068745851516724,0.2275390625
+dataset/thumb/thumb2_f00172.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.495676726102829,0.2275390625
+dataset/thumb/thumb2_f00172.jpg,a1_test,thumb,S4,attention rollout,thumb,0.27623310685157776,0.2275390625
+dataset/thumb/thumb2_f00182.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.49359235167503357,0.27443399234693877
+dataset/thumb/thumb2_f00182.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4777675271034241,0.22377232142857142
+dataset/thumb/thumb2_f00182.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5085430145263672,0.22377232142857142
+dataset/thumb/thumb2_f00182.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2900529205799103,0.22377232142857142
+dataset/thumb/thumb2_f00192.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.49445757269859314,0.2900390625
+dataset/thumb/thumb2_f00192.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.49957093596458435,0.23760363520408162
+dataset/thumb/thumb2_f00192.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5119538903236389,0.23760363520408162
+dataset/thumb/thumb2_f00192.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2626288831233978,0.23760363520408162
+dataset/thumb/thumb2_f00202.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5155965685844421,0.31222098214285715
+dataset/thumb/thumb2_f00202.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5451434850692749,0.24354272959183673
+dataset/thumb/thumb2_f00202.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5394245386123657,0.24354272959183673
+dataset/thumb/thumb2_f00202.jpg,a1_test,thumb,S4,attention rollout,thumb,0.29798850417137146,0.24354272959183673
+dataset/thumb/thumb2_f00212.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5594654083251953,0.3106265943877551
+dataset/thumb/thumb2_f00212.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5718116760253906,0.2739955357142857
+dataset/thumb/thumb2_f00212.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5606140494346619,0.2739955357142857
+dataset/thumb/thumb2_f00212.jpg,a1_test,thumb,S4,attention rollout,thumb,0.38063061237335205,0.2739955357142857
+dataset/thumb/thumb2_f00222.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5216601490974426,0.31831951530612246
+dataset/thumb/thumb2_f00222.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5727977752685547,0.2663424744897959
+dataset/thumb/thumb2_f00222.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5751840472221375,0.2663424744897959
+dataset/thumb/thumb2_f00222.jpg,a1_test,thumb,S4,attention rollout,thumb,0.32000237703323364,0.2663424744897959
+dataset/thumb/thumb2_f00232.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5719667077064514,0.31837930484693877
+dataset/thumb/thumb2_f00232.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5595256090164185,0.25175382653061223
+dataset/thumb/thumb2_f00232.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5665313601493835,0.25175382653061223
+dataset/thumb/thumb2_f00232.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3064183294773102,0.25175382653061223
+dataset/thumb/thumb2_f00242.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6362763047218323,0.3092713647959184
+dataset/thumb/thumb2_f00242.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5799093246459961,0.24507732780612246
+dataset/thumb/thumb2_f00242.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5919269323348999,0.24507732780612246
+dataset/thumb/thumb2_f00242.jpg,a1_test,thumb,S4,attention rollout,thumb,0.30252188444137573,0.24507732780612246
+dataset/thumb/thumb2_f00251.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6580150127410889,0.32657047193877553
+dataset/thumb/thumb2_f00251.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5701075792312622,0.24860491071428573
+dataset/thumb/thumb2_f00251.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5674880146980286,0.24860491071428573
+dataset/thumb/thumb2_f00251.jpg,a1_test,thumb,S4,attention rollout,thumb,0.31413534283638,0.24860491071428573
+dataset/thumb/thumb2_f00261.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6862804293632507,0.3348812181122449
+dataset/thumb/thumb2_f00261.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5607242584228516,0.24956154336734693
+dataset/thumb/thumb2_f00261.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5437905192375183,0.24956154336734693
+dataset/thumb/thumb2_f00261.jpg,a1_test,thumb,S4,attention rollout,thumb,0.37293002009391785,0.24956154336734693
+dataset/thumb/thumb2_f00271.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7120496034622192,0.3341039540816326
+dataset/thumb/thumb2_f00271.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.59349125623703,0.26462850765306123
+dataset/thumb/thumb2_f00271.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5568074584007263,0.26462850765306123
+dataset/thumb/thumb2_f00271.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3749116063117981,0.26462850765306123
+dataset/thumb/thumb2_f00281.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7063458561897278,0.32284359056122447
+dataset/thumb/thumb2_f00281.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5899410843849182,0.24776785714285715
+dataset/thumb/thumb2_f00281.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5651748180389404,0.24776785714285715
+dataset/thumb/thumb2_f00281.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3406737446784973,0.24776785714285715
+dataset/thumb/thumb2_f00291.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7012102007865906,0.31802056760204084
+dataset/thumb/thumb2_f00291.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5781494379043579,0.23584980867346939
+dataset/thumb/thumb2_f00291.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5337452292442322,0.23584980867346939
+dataset/thumb/thumb2_f00291.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3582312762737274,0.23584980867346939
+dataset/thumb/thumb2_f00301.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6828452944755554,0.33848852040816324
+dataset/thumb/thumb2_f00301.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.595950722694397,0.23292012117346939
+dataset/thumb/thumb2_f00301.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.552157461643219,0.23292012117346939
+dataset/thumb/thumb2_f00301.jpg,a1_test,thumb,S4,attention rollout,thumb,0.36558404564857483,0.23292012117346939
+dataset/thumb/thumb2_f00311.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6952440142631531,0.35022720025510207
+dataset/thumb/thumb2_f00311.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5801683664321899,0.25241151147959184
+dataset/thumb/thumb2_f00311.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5502738952636719,0.25241151147959184
+dataset/thumb/thumb2_f00311.jpg,a1_test,thumb,S4,attention rollout,thumb,0.32143959403038025,0.25241151147959184
+dataset/thumb/thumb2_f00321.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6670821309089661,0.3272082270408163
+dataset/thumb/thumb2_f00321.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5700739026069641,0.2545639349489796
+dataset/thumb/thumb2_f00321.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5661938190460205,0.2545639349489796
+dataset/thumb/thumb2_f00321.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3167728781700134,0.2545639349489796
+dataset/thumb/thumb2_f00331.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.61338871717453,0.3002232142857143
+dataset/thumb/thumb2_f00331.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5640601515769958,0.24394132653061223
+dataset/thumb/thumb2_f00331.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5520352721214294,0.24394132653061223
+dataset/thumb/thumb2_f00331.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3660111427307129,0.24394132653061223
+dataset/thumb/thumb2_f00341.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5776135325431824,0.2748923788265306
+dataset/thumb/thumb2_f00341.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.540285050868988,0.22209821428571427
+dataset/thumb/thumb2_f00341.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5411714911460876,0.22209821428571427
+dataset/thumb/thumb2_f00341.jpg,a1_test,thumb,S4,attention rollout,thumb,0.36437544226646423,0.22209821428571427
+dataset/thumb/thumb2_f00350.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6197337508201599,0.3010403380102041
+dataset/thumb/thumb2_f00350.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5403300523757935,0.22150031887755103
+dataset/thumb/thumb2_f00350.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5170212984085083,0.22150031887755103
+dataset/thumb/thumb2_f00350.jpg,a1_test,thumb,S4,attention rollout,thumb,0.30827733874320984,0.22150031887755103
+dataset/thumb/thumb2_f00360.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5398433208465576,0.3946109693877551
+dataset/thumb/thumb2_f00360.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5625653266906738,0.2183514030612245
+dataset/thumb/thumb2_f00360.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4763867259025574,0.2183514030612245
+dataset/thumb/thumb2_f00360.jpg,a1_test,thumb,S4,attention rollout,thumb,0.31623584032058716,0.2183514030612245
+dataset/thumb/thumb2_f00370.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.508587121963501,0.38572225765306123
+dataset/thumb/thumb2_f00370.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5674499273300171,0.2298907844387755
+dataset/thumb/thumb2_f00370.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.49996528029441833,0.2298907844387755
+dataset/thumb/thumb2_f00370.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3161608874797821,0.2298907844387755
+dataset/thumb/thumb2_f00380.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5479063987731934,0.3681042729591837
+dataset/thumb/thumb2_f00380.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5688828825950623,0.22636320153061223
+dataset/thumb/thumb2_f00380.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5077797174453735,0.22636320153061223
+dataset/thumb/thumb2_f00380.jpg,a1_test,thumb,S4,attention rollout,thumb,0.31292155385017395,0.22636320153061223
+dataset/thumb/thumb2_f00390.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5181349515914917,0.3719905931122449
+dataset/thumb/thumb2_f00390.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.548568606376648,0.23206313775510204
+dataset/thumb/thumb2_f00390.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.48746636509895325,0.23206313775510204
+dataset/thumb/thumb2_f00390.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3085850179195404,0.23206313775510204
+dataset/thumb/thumb2_f00400.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5265522599220276,0.3604113520408163
+dataset/thumb/thumb2_f00400.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5797873139381409,0.22544642857142858
+dataset/thumb/thumb2_f00400.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.49073299765586853,0.22544642857142858
+dataset/thumb/thumb2_f00400.jpg,a1_test,thumb,S4,attention rollout,thumb,0.28492477536201477,0.22544642857142858
+dataset/thumb/thumb2_f00410.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.47304558753967285,0.3522999043367347
+dataset/thumb/thumb2_f00410.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5658252239227295,0.24547592474489796
+dataset/thumb/thumb2_f00410.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.48498106002807617,0.24547592474489796
+dataset/thumb/thumb2_f00410.jpg,a1_test,thumb,S4,attention rollout,thumb,0.36614736914634705,0.24547592474489796
+dataset/thumb/thumb2_f00420.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.45527419447898865,0.32051179846938777
+dataset/thumb/thumb2_f00420.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5465433597564697,0.25137515943877553
+dataset/thumb/thumb2_f00420.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4626621603965759,0.25137515943877553
+dataset/thumb/thumb2_f00420.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3062596619129181,0.25137515943877553
+dataset/thumb/thumb2_f00430.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4886251986026764,0.30857382015306123
+dataset/thumb/thumb2_f00430.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.572797954082489,0.2503188775510204
+dataset/thumb/thumb2_f00430.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4781547486782074,0.2503188775510204
+dataset/thumb/thumb2_f00430.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3051134943962097,0.2503188775510204
+dataset/thumb/thumb2_f00440.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4400574564933777,0.2979312818877551
+dataset/thumb/thumb2_f00440.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5481833219528198,0.2616390306122449
+dataset/thumb/thumb2_f00440.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4465382397174835,0.2616390306122449
+dataset/thumb/thumb2_f00440.jpg,a1_test,thumb,S4,attention rollout,thumb,0.31481310725212097,0.2616390306122449
+dataset/thumb/thumb2_f00449.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.49731653928756714,0.300601881377551
+dataset/thumb/thumb2_f00449.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5741990208625793,0.2523716517857143
+dataset/thumb/thumb2_f00449.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5059980154037476,0.2523716517857143
+dataset/thumb/thumb2_f00449.jpg,a1_test,thumb,S4,attention rollout,thumb,0.323042094707489,0.2523716517857143
+dataset/thumb/thumb2_f00459.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5684427618980408,0.2897799744897959
+dataset/thumb/thumb2_f00459.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.583392322063446,0.24364237882653061
+dataset/thumb/thumb2_f00459.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5099546909332275,0.24364237882653061
+dataset/thumb/thumb2_f00459.jpg,a1_test,thumb,S4,attention rollout,thumb,0.28893908858299255,0.24364237882653061
+dataset/thumb/thumb2_f00469.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6186226010322571,0.3054049744897959
+dataset/thumb/thumb2_f00469.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5870858430862427,0.24344308035714285
+dataset/thumb/thumb2_f00469.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5555024147033691,0.24344308035714285
+dataset/thumb/thumb2_f00469.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3710293769836426,0.24344308035714285
+dataset/thumb/thumb2_f00479.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5709193348884583,0.3138950892857143
+dataset/thumb/thumb2_f00479.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5381886959075928,0.22889429209183673
+dataset/thumb/thumb2_f00479.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.503058135509491,0.22889429209183673
+dataset/thumb/thumb2_f00479.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3824148178100586,0.22889429209183673
+dataset/thumb/thumb2_f00489.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6042893528938293,0.33591757015306123
+dataset/thumb/thumb2_f00489.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5381112098693848,0.21829161352040816
+dataset/thumb/thumb2_f00489.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5013636946678162,0.21829161352040816
+dataset/thumb/thumb2_f00489.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3519611656665802,0.21829161352040816
+dataset/thumb/thumb2_f00499.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6211140751838684,0.338069993622449
+dataset/thumb/thumb2_f00499.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5446560978889465,0.2186902104591837
+dataset/thumb/thumb2_f00499.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5077129602432251,0.2186902104591837
+dataset/thumb/thumb2_f00499.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3206349313259125,0.2186902104591837
+dataset/thumb/thumb2_f00509.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.681846559047699,0.35899633290816324
+dataset/thumb/thumb2_f00509.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5732268691062927,0.2417889030612245
+dataset/thumb/thumb2_f00509.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5796616673469543,0.2417889030612245
+dataset/thumb/thumb2_f00509.jpg,a1_test,thumb,S4,attention rollout,thumb,0.34442001581192017,0.2417889030612245
+dataset/thumb/thumb2_f00519.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7299627065658569,0.415836256377551
+dataset/thumb/thumb2_f00519.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.6228203773498535,0.283203125
+dataset/thumb/thumb2_f00519.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5786390900611877,0.283203125
+dataset/thumb/thumb2_f00519.jpg,a1_test,thumb,S4,attention rollout,thumb,0.28850123286247253,0.283203125
+dataset/thumb/thumb2_f00529.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7578384876251221,0.46340880102040816
+dataset/thumb/thumb2_f00529.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5927155017852783,0.2853954081632653
+dataset/thumb/thumb2_f00529.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.6076677441596985,0.2853954081632653
+dataset/thumb/thumb2_f00529.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3524523079395294,0.2853954081632653
+dataset/thumb/thumb2_f00539.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7466281652450562,0.4782166772959184
+dataset/thumb/thumb2_f00539.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5724605917930603,0.29739317602040816
+dataset/thumb/thumb2_f00539.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5537084937095642,0.29739317602040816
+dataset/thumb/thumb2_f00539.jpg,a1_test,thumb,S4,attention rollout,thumb,0.307854562997818,0.29739317602040816
+dataset/thumb/thumb2_f00548.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7488327622413635,0.4624123086734694
+dataset/thumb/thumb2_f00548.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5972840785980225,0.32417889030612246
+dataset/thumb/thumb2_f00548.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.6104282140731812,0.32417889030612246
+dataset/thumb/thumb2_f00548.jpg,a1_test,thumb,S4,attention rollout,thumb,0.4048965275287628,0.32417889030612246
+dataset/thumb/thumb2_f00558.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7251485586166382,0.4083625637755102
+dataset/thumb/thumb2_f00558.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.618690550327301,0.35975366709183676
+dataset/thumb/thumb2_f00558.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.6230321526527405,0.35975366709183676
+dataset/thumb/thumb2_f00558.jpg,a1_test,thumb,S4,attention rollout,thumb,0.380151629447937,0.35975366709183676
+dataset/thumb/thumb2_f00568.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.7238754034042358,0.36660953443877553
+dataset/thumb/thumb2_f00568.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.6195424795150757,0.3627830038265306
+dataset/thumb/thumb2_f00568.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.6276302933692932,0.3627830038265306
+dataset/thumb/thumb2_f00568.jpg,a1_test,thumb,S4,attention rollout,thumb,0.375385582447052,0.3627830038265306
+dataset/thumb/thumb2_f00578.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6722950339317322,0.32651068239795916
+dataset/thumb/thumb2_f00578.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5768975615501404,0.3548110650510204
+dataset/thumb/thumb2_f00578.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5724359750747681,0.3548110650510204
+dataset/thumb/thumb2_f00578.jpg,a1_test,thumb,S4,attention rollout,thumb,0.32919278740882874,0.3548110650510204
+dataset/thumb/thumb2_f00588.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6838306784629822,0.28946109693877553
+dataset/thumb/thumb2_f00588.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.595954179763794,0.3636001275510204
+dataset/thumb/thumb2_f00588.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5834444761276245,0.3636001275510204
+dataset/thumb/thumb2_f00588.jpg,a1_test,thumb,S4,attention rollout,thumb,0.35618114471435547,0.3636001275510204
+dataset/thumb/thumb2_f00598.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6751686334609985,0.2715441645408163
+dataset/thumb/thumb2_f00598.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.6133219599723816,0.3620057397959184
+dataset/thumb/thumb2_f00598.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.6006208658218384,0.3620057397959184
+dataset/thumb/thumb2_f00598.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3816085457801819,0.3620057397959184
+dataset/thumb/thumb2_f00608.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6638409495353699,0.2532485650510204
+dataset/thumb/thumb2_f00608.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.524689257144928,0.28515625
+dataset/thumb/thumb2_f00608.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4666764736175537,0.28515625
+dataset/thumb/thumb2_f00608.jpg,a1_test,thumb,S4,attention rollout,thumb,0.33264005184173584,0.28515625
+dataset/thumb/thumb2_f00618.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.6660858392715454,0.2613002232142857
+dataset/thumb/thumb2_f00618.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5396380424499512,0.3046277104591837
+dataset/thumb/thumb2_f00618.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.47609806060791016,0.3046277104591837
+dataset/thumb/thumb2_f00618.jpg,a1_test,thumb,S4,attention rollout,thumb,0.35478004813194275,0.3046277104591837
+dataset/thumb/thumb2_f00628.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5755024552345276,0.23224250637755103
+dataset/thumb/thumb2_f00628.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5931699275970459,0.3290218431122449
+dataset/thumb/thumb2_f00628.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5914577841758728,0.3290218431122449
+dataset/thumb/thumb2_f00628.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2822793126106262,0.3290218431122449
+dataset/thumb/thumb2_f00638.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.5528973937034607,0.24872448979591838
+dataset/thumb/thumb2_f00638.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5741199254989624,0.2862523915816326
+dataset/thumb/thumb2_f00638.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5603581070899963,0.2862523915816326
+dataset/thumb/thumb2_f00638.jpg,a1_test,thumb,S4,attention rollout,thumb,0.30000707507133484,0.2862523915816326
+dataset/thumb/thumb2_f00647.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4539109170436859,0.2362683354591837
+dataset/thumb/thumb2_f00647.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4632972478866577,0.23272082270408162
+dataset/thumb/thumb2_f00647.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.4609527289867401,0.23272082270408162
+dataset/thumb/thumb2_f00647.jpg,a1_test,thumb,S4,attention rollout,thumb,0.26506030559539795,0.23272082270408162
+dataset/thumb/thumb2_f00657.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.3511680066585541,0.19700653698979592
+dataset/thumb/thumb2_f00657.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5091642141342163,0.32011320153061223
+dataset/thumb/thumb2_f00657.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.44702282547950745,0.32011320153061223
+dataset/thumb/thumb2_f00657.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3952658474445343,0.32011320153061223
+dataset/thumb/thumb2_f00667.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.4099741578102112,0.17442602040816327
+dataset/thumb/thumb2_f00667.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.40586116909980774,0.2225964604591837
+dataset/thumb/thumb2_f00667.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.39303842186927795,0.2225964604591837
+dataset/thumb/thumb2_f00667.jpg,a1_test,thumb,S4,attention rollout,thumb,0.23298875987529755,0.2225964604591837
+dataset/thumb/thumb2_f00687.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.5468865633010864,0.17265226403061223
+dataset/thumb/thumb2_f00687.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.429118275642395,0.24344308035714285
+dataset/thumb/thumb2_f00687.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.4118300676345825,0.24344308035714285
+dataset/thumb/thumb2_f00687.jpg,a1_test,thumb,S4,attention rollout,thumb,0.23694287240505219,0.24344308035714285
+dataset/thumb/thumb2_f00697.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.5701424479484558,0.19029017857142858
+dataset/thumb/thumb2_f00697.jpg,a1_test,thumb,S2,Grad-CAM,peace,0.5708062052726746,0.2780811543367347
+dataset/thumb/thumb2_f00697.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.37307900190353394,0.2780811543367347
+dataset/thumb/thumb2_f00697.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3098599314689636,0.2780811543367347
+dataset/thumb/thumb2_f00707.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.5897756218910217,0.18389269770408162
+dataset/thumb/thumb2_f00707.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.3786076605319977,0.28475765306122447
+dataset/thumb/thumb2_f00707.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.13419707119464874,0.28475765306122447
+dataset/thumb/thumb2_f00707.jpg,a1_test,thumb,S4,attention rollout,thumb,0.23559223115444183,0.28475765306122447
+dataset/thumb/thumb2_f00717.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.5635303854942322,0.19144610969387754
+dataset/thumb/thumb2_f00717.jpg,a1_test,thumb,S2,Grad-CAM,peace,0.6509380340576172,0.32479671556122447
+dataset/thumb/thumb2_f00717.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.3955629765987396,0.32479671556122447
+dataset/thumb/thumb2_f00717.jpg,a1_test,thumb,S4,attention rollout,thumb,0.3493579924106598,0.32479671556122447
+dataset/thumb/thumb2_f00727.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.4975842833518982,0.20384247448979592
+dataset/thumb/thumb2_f00727.jpg,a1_test,thumb,S2,Grad-CAM,peace,0.6190150380134583,0.32284359056122447
+dataset/thumb/thumb2_f00727.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.3653956949710846,0.32284359056122447
+dataset/thumb/thumb2_f00727.jpg,a1_test,thumb,S4,attention rollout,peace,0.28313708305358887,0.32284359056122447
+dataset/thumb/thumb2_f00737.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.5838770270347595,0.19738520408163265
+dataset/thumb/thumb2_f00737.jpg,a1_test,thumb,S2,Grad-CAM,peace,0.669334352016449,0.35548867984693877
+dataset/thumb/thumb2_f00737.jpg,a1_test,thumb,S3,Grad-CAM,fist,0.527437686920166,0.35548867984693877
+dataset/thumb/thumb2_f00737.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2732536196708679,0.35548867984693877
+dataset/thumb/thumb2_f00746.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.47971224784851074,0.19130660076530612
+dataset/thumb/thumb2_f00746.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.4090191721916199,0.33278858418367346
+dataset/thumb/thumb2_f00746.jpg,a1_test,thumb,S3,Grad-CAM,fist,0.5952914357185364,0.33278858418367346
+dataset/thumb/thumb2_f00746.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2385573536157608,0.33278858418367346
+dataset/thumb/thumb2_f00796.jpg,a1_test,thumb,B0,Grad-CAM,thumb,0.47451889514923096,0.13219467474489796
+dataset/thumb/thumb2_f00796.jpg,a1_test,thumb,S2,Grad-CAM,peace,0.658960223197937,0.3123405612244898
+dataset/thumb/thumb2_f00796.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.3664552867412567,0.3123405612244898
+dataset/thumb/thumb2_f00796.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2598477005958557,0.3123405612244898
+dataset/thumb/thumb2_f00806.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.33458104729652405,0.10604671556122448
+dataset/thumb/thumb2_f00806.jpg,a1_test,thumb,S2,Grad-CAM,peace,0.5805486440658569,0.2509765625
+dataset/thumb/thumb2_f00806.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.23256462812423706,0.2509765625
+dataset/thumb/thumb2_f00806.jpg,a1_test,thumb,S4,attention rollout,thumb,0.21619735658168793,0.2509765625
+dataset/thumb/thumb2_f00816.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.3986603617668152,0.08637595663265306
+dataset/thumb/thumb2_f00816.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.38038170337677,0.22472895408163265
+dataset/thumb/thumb2_f00816.jpg,a1_test,thumb,S3,Grad-CAM,peace,0.14205259084701538,0.22472895408163265
+dataset/thumb/thumb2_f00816.jpg,a1_test,thumb,S4,attention rollout,thumb,0.20060433447360992,0.22472895408163265
+dataset/thumb/thumb2_f00826.jpg,a1_test,thumb,B0,Grad-CAM,peace,0.41927364468574524,0.099609375
+dataset/thumb/thumb2_f00826.jpg,a1_test,thumb,S2,Grad-CAM,thumb,0.5109157562255859,0.2391780931122449
+dataset/thumb/thumb2_f00826.jpg,a1_test,thumb,S3,Grad-CAM,thumb,0.5064821839332581,0.2391780931122449
+dataset/thumb/thumb2_f00826.jpg,a1_test,thumb,S4,attention rollout,thumb,0.2579026520252228,0.2391780931122449
