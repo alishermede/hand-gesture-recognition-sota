@@ -1,0 +1,72 @@
+torch 2.14.0+cpu | device cpu | fast False | python 3.14.0
+train 422  val 98  test 200  test clips ['fist2_dark', 'peace2', 'thumb2']
+  [ResNet18/head s42] epoch  1/6  train loss 1.115 acc 0.398 | val loss 1.053 acc 0.418
+  [ResNet18/head s42] epoch  2/6  train loss 0.911 acc 0.628 | val loss 0.838 acc 0.745
+  [ResNet18/head s42] epoch  3/6  train loss 0.790 acc 0.761 | val loss 0.728 acc 0.816
+  [ResNet18/head s42] epoch  4/6  train loss 0.712 acc 0.829 | val loss 0.679 acc 0.837
+  [ResNet18/head s42] epoch  5/6  train loss 0.681 acc 0.810 | val loss 0.663 acc 0.837
+  [ResNet18/head s42] epoch  6/6  train loss 0.663 acc 0.839 | val loss 0.653 acc 0.837
+  [ResNet18/head s42] best val acc 0.8367
+  [ResNet18/full s42] epoch  1/12  train loss 0.462 acc 0.905 | val loss 0.368 acc 0.908
+  [ResNet18/full s42] epoch  2/12  train loss 0.263 acc 0.969 | val loss 0.331 acc 0.918
+  [ResNet18/full s42] epoch  3/12  train loss 0.230 acc 0.993 | val loss 0.282 acc 0.918
+  [ResNet18/full s42] epoch  4/12  train loss 0.212 acc 0.995 | val loss 0.265 acc 0.918
+  [ResNet18/full s42] epoch  5/12  train loss 0.212 acc 0.993 | val loss 0.246 acc 0.969
+  [ResNet18/full s42] epoch  6/12  train loss 0.206 acc 0.995 | val loss 0.236 acc 0.969
+  [ResNet18/full s42] epoch  7/12  train loss 0.201 acc 0.998 | val loss 0.231 acc 0.969
+  [ResNet18/full s42] epoch  8/12  train loss 0.212 acc 0.995 | val loss 0.246 acc 0.939
+  [ResNet18/full s42] epoch  9/12  train loss 0.205 acc 0.998 | val loss 0.236 acc 0.959
+  [ResNet18/full s42] epoch 10/12  train loss 0.197 acc 0.998 | val loss 0.233 acc 0.959
+  [ResNet18/full s42] epoch 11/12  train loss 0.200 acc 0.998 | val loss 0.240 acc 0.959
+  [ResNet18/full s42] epoch 12/12  train loss 0.195 acc 1.000 | val loss 0.243 acc 0.949
+  [ResNet18/full s42] best val acc 0.9694
+seed 42: acc 0.9450  macro-F1 0.9474  errors 11 (thumb->peace:11)  524s
+  [ResNet18/head s43] epoch  1/6  train loss 1.076 acc 0.436 | val loss 1.062 acc 0.439
+  [ResNet18/head s43] epoch  2/6  train loss 0.910 acc 0.604 | val loss 0.866 acc 0.612
+  [ResNet18/head s43] epoch  3/6  train loss 0.806 acc 0.701 | val loss 0.811 acc 0.551
+  [ResNet18/head s43] epoch  4/6  train loss 0.773 acc 0.732 | val loss 0.704 acc 0.816
+  [ResNet18/head s43] epoch  5/6  train loss 0.673 acc 0.853 | val loss 0.696 acc 0.806
+  [ResNet18/head s43] epoch  6/6  train loss 0.664 acc 0.839 | val loss 0.688 acc 0.827
+  [ResNet18/head s43] best val acc 0.8265
+  [ResNet18/full s43] epoch  1/12  train loss 0.465 acc 0.915 | val loss 0.343 acc 0.959
+  [ResNet18/full s43] epoch  2/12  train loss 0.261 acc 0.976 | val loss 0.277 acc 0.939
+  [ResNet18/full s43] epoch  3/12  train loss 0.237 acc 0.983 | val loss 0.268 acc 0.929
+  [ResNet18/full s43] epoch  4/12  train loss 0.209 acc 0.998 | val loss 0.235 acc 1.000
+  [ResNet18/full s43] epoch  5/12  train loss 0.211 acc 0.995 | val loss 0.232 acc 0.990
+  [ResNet18/full s43] epoch  6/12  train loss 0.208 acc 0.993 | val loss 0.231 acc 0.990
+  [ResNet18/full s43] epoch  7/12  train loss 0.209 acc 0.998 | val loss 0.237 acc 0.980
+  [ResNet18/full s43] epoch  8/12  train loss 0.222 acc 0.983 | val loss 0.249 acc 0.959
+  [ResNet18/full s43] epoch  9/12  train loss 0.203 acc 0.995 | val loss 0.239 acc 0.969
+  [ResNet18/full s43] epoch 10/12  train loss 0.194 acc 1.000 | val loss 0.238 acc 0.969
+  [ResNet18/full s43] epoch 11/12  train loss 0.200 acc 0.995 | val loss 0.226 acc 0.990
+  [ResNet18/full s43] epoch 12/12  train loss 0.204 acc 0.995 | val loss 0.225 acc 0.990
+  [ResNet18/full s43] best val acc 1.0000
+seed 43: acc 0.8900  macro-F1 0.8909  errors 22 (thumb->fist:10, thumb->peace:12)  518s
+  [ResNet18/head s44] epoch  1/6  train loss 1.060 acc 0.438 | val loss 0.945 acc 0.582
+  [ResNet18/head s44] epoch  2/6  train loss 0.899 acc 0.604 | val loss 0.816 acc 0.643
+  [ResNet18/head s44] epoch  3/6  train loss 0.786 acc 0.761 | val loss 0.753 acc 0.663
+  [ResNet18/head s44] epoch  4/6  train loss 0.709 acc 0.810 | val loss 0.719 acc 0.735
+  [ResNet18/head s44] epoch  5/6  train loss 0.674 acc 0.865 | val loss 0.666 acc 0.755
+  [ResNet18/head s44] epoch  6/6  train loss 0.669 acc 0.848 | val loss 0.657 acc 0.745
+  [ResNet18/head s44] best val acc 0.7551
+  [ResNet18/full s44] epoch  1/12  train loss 0.454 acc 0.905 | val loss 0.355 acc 0.918
+  [ResNet18/full s44] epoch  2/12  train loss 0.267 acc 0.960 | val loss 0.279 acc 0.929
+  [ResNet18/full s44] epoch  3/12  train loss 0.240 acc 0.986 | val loss 0.259 acc 0.949
+  [ResNet18/full s44] epoch  4/12  train loss 0.216 acc 0.995 | val loss 0.240 acc 0.969
+  [ResNet18/full s44] epoch  5/12  train loss 0.215 acc 0.998 | val loss 0.233 acc 0.969
+  [ResNet18/full s44] epoch  6/12  train loss 0.206 acc 0.998 | val loss 0.228 acc 0.969
+  [ResNet18/full s44] epoch  7/12  train loss 0.224 acc 0.986 | val loss 0.245 acc 0.959
+  [ResNet18/full s44] epoch  8/12  train loss 0.208 acc 0.993 | val loss 0.237 acc 0.959
+  [ResNet18/full s44] epoch  9/12  train loss 0.201 acc 0.998 | val loss 0.227 acc 0.969
+  [ResNet18/full s44] epoch 10/12  train loss 0.201 acc 1.000 | val loss 0.224 acc 0.969
+  [ResNet18/full s44] epoch 11/12  train loss 0.199 acc 0.998 | val loss 0.230 acc 0.969
+  [ResNet18/full s44] epoch 12/12  train loss 0.204 acc 0.995 | val loss 0.226 acc 0.969
+  [ResNet18/full s44] best val acc 0.9694
+seed 44: acc 0.9050  macro-F1 0.9088  errors 19 (thumb->fist:1, thumb->peace:18)  517s
+
+A1 reference: acc 0.9450  macro-F1 0.9474  errors 11 (thumb->peace:11)
+ seed   acc  macro_f1  n_errors                   error_pattern  best_val_acc  train_seconds
+   42 0.945  0.947402        11                 thumb->peace:11      0.969388          524.5
+   43 0.890  0.890916        22 thumb->fist:10, thumb->peace:12      1.000000          518.2
+   44 0.905  0.908850        19  thumb->fist:1, thumb->peace:18      0.969388          516.8
+mean ± std over 3 seeds: acc 0.9133 ± 0.0284  macro-F1 0.9157 ± 0.0289
