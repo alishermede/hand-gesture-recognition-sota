@@ -1,0 +1,12 @@
+# Python 3.14, CPU-only. Versions are the ones this project was run with.
+numpy>=2.0
+pandas>=2.2
+opencv-python>=4.10
+scikit-learn>=1.5
+scikit-image>=0.24
+matplotlib>=3.9
+torch>=2.9
+torchvision>=0.24
+nbformat>=5.10
+nbconvert>=7.16
+ipykernel>=6.29

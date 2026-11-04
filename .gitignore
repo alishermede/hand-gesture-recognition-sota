@@ -1,0 +1,19 @@
+# Raw recordings and archives: large, kept locally, never rewritten.
+*.MOV
+*.mov
+*.mp4
+*.zip
+
+# Model weights and checkpoints (re-created by the training scripts).
+*.pt
+*.pth
+*.safetensors
+
+# External / cached data, re-downloadable by scripts.
+data_ext/
+cache/
+
+# Python / Jupyter noise.
+__pycache__/
+*.pyc
+.ipynb_checkpoints/

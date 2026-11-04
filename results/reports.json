@@ -1,0 +1,200 @@
+{
+  "LogReg (raw 64x64 pixels)": {
+    "fist": {
+      "precision": 0.36363636363636365,
+      "recall": 0.4,
+      "f1-score": 0.38095238095238093,
+      "support": 60.0
+    },
+    "peace": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 60.0
+    },
+    "thumb": {
+      "precision": 0.014925373134328358,
+      "recall": 0.0125,
+      "f1-score": 0.013605442176870748,
+      "support": 80.0
+    },
+    "accuracy": 0.125,
+    "macro avg": {
+      "precision": 0.12618724559023067,
+      "recall": 0.1375,
+      "f1-score": 0.13151927437641722,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.11506105834464045,
+      "recall": 0.125,
+      "f1-score": 0.11972789115646258,
+      "support": 200.0
+    }
+  },
+  "LogReg (HOG)": {
+    "fist": {
+      "precision": 0.5714285714285714,
+      "recall": 0.6666666666666666,
+      "f1-score": 0.6153846153846154,
+      "support": 60.0
+    },
+    "peace": {
+      "precision": 0.0967741935483871,
+      "recall": 0.15,
+      "f1-score": 0.11764705882352941,
+      "support": 60.0
+    },
+    "thumb": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 80.0
+    },
+    "accuracy": 0.245,
+    "macro avg": {
+      "precision": 0.2227342549923195,
+      "recall": 0.2722222222222222,
+      "f1-score": 0.24434389140271495,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.20046082949308755,
+      "recall": 0.245,
+      "f1-score": 0.21990950226244343,
+      "support": 200.0
+    }
+  },
+  "SVM-RBF (raw 64x64 pixels)": {
+    "fist": {
+      "precision": 0.47580645161290325,
+      "recall": 0.9833333333333333,
+      "f1-score": 0.6413043478260869,
+      "support": 60.0
+    },
+    "peace": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 60.0
+    },
+    "thumb": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 80.0
+    },
+    "accuracy": 0.295,
+    "macro avg": {
+      "precision": 0.1586021505376344,
+      "recall": 0.3277777777777778,
+      "f1-score": 0.21376811594202896,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.14274193548387099,
+      "recall": 0.295,
+      "f1-score": 0.1923913043478261,
+      "support": 200.0
+    }
+  },
+  "SVM-RBF (HOG)": {
+    "fist": {
+      "precision": 0.4807692307692308,
+      "recall": 0.8333333333333334,
+      "f1-score": 0.6097560975609756,
+      "support": 60.0
+    },
+    "peace": {
+      "precision": 0.014285714285714285,
+      "recall": 0.016666666666666666,
+      "f1-score": 0.015384615384615385,
+      "support": 60.0
+    },
+    "thumb": {
+      "precision": 0.0,
+      "recall": 0.0,
+      "f1-score": 0.0,
+      "support": 80.0
+    },
+    "accuracy": 0.255,
+    "macro avg": {
+      "precision": 0.16501831501831501,
+      "recall": 0.2833333333333334,
+      "f1-score": 0.20838023764853034,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.14851648351648353,
+      "recall": 0.255,
+      "f1-score": 0.18754221388367728,
+      "support": 200.0
+    }
+  },
+  "Small CNN (from scratch)": {
+    "fist": {
+      "precision": 0.8787878787878788,
+      "recall": 0.9666666666666667,
+      "f1-score": 0.9206349206349206,
+      "support": 60.0
+    },
+    "peace": {
+      "precision": 0.01694915254237288,
+      "recall": 0.016666666666666666,
+      "f1-score": 0.01680672268907563,
+      "support": 60.0
+    },
+    "thumb": {
+      "precision": 0.29333333333333333,
+      "recall": 0.275,
+      "f1-score": 0.2838709677419355,
+      "support": 80.0
+    },
+    "accuracy": 0.405,
+    "macro avg": {
+      "precision": 0.39635678822119497,
+      "recall": 0.41944444444444445,
+      "f1-score": 0.4071042036886439,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.38605444273240885,
+      "recall": 0.405,
+      "f1-score": 0.3947808800939731,
+      "support": 200.0
+    }
+  },
+  "ResNet-18 (transfer learning)": {
+    "fist": {
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1-score": 1.0,
+      "support": 60.0
+    },
+    "peace": {
+      "precision": 0.8450704225352113,
+      "recall": 1.0,
+      "f1-score": 0.916030534351145,
+      "support": 60.0
+    },
+    "thumb": {
+      "precision": 1.0,
+      "recall": 0.8625,
+      "f1-score": 0.9261744966442953,
+      "support": 80.0
+    },
+    "accuracy": 0.945,
+    "macro avg": {
+      "precision": 0.948356807511737,
+      "recall": 0.9541666666666666,
+      "f1-score": 0.9474016769984801,
+      "support": 200.0
+    },
+    "weighted avg": {
+      "precision": 0.9535211267605633,
+      "recall": 0.945,
+      "f1-score": 0.9452789589630615,
+      "support": 200.0
+    }
+  }
+}
