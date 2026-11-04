@@ -1,0 +1,6 @@
+source,environment,split,images,detected,masks
+hagrid,hagrid,test,292,0.8972602739726028,0
+hagrid,hagrid,train,1176,0.8664965986394558,0
+own,a1_room,test,200,0.945,0
+own,a1_room,train,422,0.9360189573459715,0
+own,a1_room,val,98,0.9081632653061225,0

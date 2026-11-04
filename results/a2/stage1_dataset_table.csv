@@ -1,0 +1,6 @@
+source,split,fist,peace,thumb,total
+hagrid,test,92,100,100,292
+hagrid,train,376,400,400,1176
+own,test,60,60,80,200
+own,train,147,146,129,422
+own,val,33,34,31,98

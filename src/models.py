@@ -1,5 +1,6 @@
 """Model builders and the A1 two-stage ResNet-18 fine-tuning recipe."""
 
+import torch
 import torch.nn as nn
 import torchvision
 
@@ -40,3 +41,58 @@ def run_resnet18(train_df, val_df, test_df, train_tf, eval_tf, seed, fast=FAST, 
 
     hist = {k: h1[k] + h2[k] for k in h1}
     return model, hist, loaders, len(h1["train_loss"])
+
+
+# --- A2 models ---------------------------------------------------------------------
+
+DINO_ID = "facebook/dinov2-small"   # ViT-S/14, 22M parameters, Apache-2.0
+
+
+class DinoV2Classifier(nn.Module):
+    """DINOv2 ViT-S/14 + a linear head on [CLS, mean patch token] (the DINOv2 linear-probe recipe)."""
+
+    def __init__(self, n_classes=len(CLASSES), attn_implementation="sdpa"):
+        super().__init__()
+        from transformers import AutoModel
+
+        self.backbone = AutoModel.from_pretrained(DINO_ID, attn_implementation=attn_implementation)
+        self.fc = nn.Linear(2 * self.backbone.config.hidden_size, n_classes)
+
+    def features(self, x):
+        h = self.backbone(pixel_values=x).last_hidden_state
+        return torch.cat([h[:, 0], h[:, 1:].mean(1)], 1)
+
+    def forward(self, x):
+        return self.fc(self.features(x))
+
+
+def unfreeze_all(model):
+    for p in model.parameters():
+        p.requires_grad = True
+
+
+def unfreeze_dino_top(model, n_blocks=4):
+    """Light fine-tune: only the last n transformer blocks, the final norm and the head."""
+    for blk in model.backbone.encoder.layer[-n_blocks:]:
+        for p in blk.parameters():
+            p.requires_grad = True
+    for p in model.backbone.layernorm.parameters():
+        p.requires_grad = True
+
+
+def run_two_stage(model, loaders, unfreeze, head=(6, 1e-3), full=(12, 5e-5), label="model",
+                  fast=FAST, device=None, log=print, on_head_done=None):
+    """Head-only training, then a fine-tune of whatever `unfreeze` releases (A1 recipe, generalised).
+    `on_head_done(model)` is called between the stages (used to evaluate the DINOv2 linear probe)."""
+    for p in model.parameters():
+        p.requires_grad = False
+    for p in model.fc.parameters():
+        p.requires_grad = True
+    model, h1 = train_model(model, loaders, epochs=2 if fast else head[0], lr=head[1],
+                            label=f"{label}/head", device=device, log=log)
+    if on_head_done is not None:
+        on_head_done(model)
+    unfreeze(model)
+    model, h2 = train_model(model, loaders, epochs=2 if fast else full[0], lr=full[1],
+                            label=f"{label}/full", device=device, log=log)
+    return model, {k: h1[k] + h2[k] for k in h1}, len(h1["train_loss"])
