@@ -70,7 +70,7 @@ def main():
             axes[i, j].axis("off")
             if i == 0:
                 axes[i, j].set_title(titles[j], fontsize=9)
-        axes[i, 0].set_title(f"{r.label} ({r.lighting})", fontsize=8, loc="left")
+        axes[i, 0].set_title((f"{titles[0]}: " if i == 0 else "") + f"{r.label} ({r.lighting})", fontsize=8)
     fig.tight_layout()
     fig.savefig(FIG_DIR / "stage2_pipeline.png", dpi=110, bbox_inches="tight")
     print("saved", FIG_DIR / "stage2_pipeline.png")

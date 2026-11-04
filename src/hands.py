@@ -21,9 +21,6 @@ CROP_MARGIN = 0.25    # margin on each side of the landmark box -> crop side = 1
 CROP_SIZE = 256       # cached crops / masks are stored at this resolution
 MIN_DETECT_SIDE = 256 # small images (HaGRID crops) are upscaled to this before detection
 
-# landmarks used as positive point prompts for SAM 2: wrist, the four MCP knuckles,
-# and the thumb / index / middle tips (they lie on the hand for all three gestures)
-SAM_POINT_IDS = (0, 5, 9, 13, 17, 4, 8, 12)
 
 
 @dataclass
@@ -118,7 +115,7 @@ def frac_outside_centre_square(lm, w, h):
 # --- SAM 2.1 -----------------------------------------------------------------------
 
 class HandSegmenter:
-    """SAM 2.1 (hiera-tiny) through transformers, prompted with landmark points + their box."""
+    """SAM 2.1 (hiera-tiny) through transformers, prompted with the MediaPipe landmark box."""
 
     def __init__(self, device="cpu"):
         import torch
@@ -129,25 +126,28 @@ class HandSegmenter:
         self.model = Sam2Model.from_pretrained(SAM_ID).to(device).eval()
 
     def segment(self, crop_rgb, pts):
-        """crop_rgb: (S, S, 3) uint8; pts: (21, 2) landmark pixels in the crop. -> (mask bool, iou score)"""
+        """crop_rgb: (S, S, 3) uint8; pts: (21, 2) landmark pixels in the crop. -> (mask bool, iou score)
+
+        The prompt is the landmark bounding box (+8% of the crop on each side). On a spot
+        check, point prompts (8 landmarks, with or without the box) leaked onto the forearm
+        or missed fingers, while the box alone gave clean masks. SAM returns 3 candidate
+        masks; the one with the highest predicted IoU is kept."""
         s = crop_rgb.shape[0]
-        sel = pts[list(SAM_POINT_IDS)]
-        sel = sel[(sel[:, 0] >= 0) & (sel[:, 0] < s) & (sel[:, 1] >= 0) & (sel[:, 1] < s)]
-        if len(sel) == 0:
-            return np.zeros((s, s), bool), 0.0
         x0, y0 = np.clip(pts.min(0) - 0.08 * s, 0, s - 1)
         x1, y1 = np.clip(pts.max(0) + 0.08 * s, 0, s - 1)
+        if x1 - x0 < 4 or y1 - y0 < 4:
+            return np.zeros((s, s), bool), 0.0
         inputs = self.processor(
             images=crop_rgb,
-            input_points=[[sel.round().astype(int).tolist()]],
-            input_labels=[[[1] * len(sel)]],
             input_boxes=[[[float(x0), float(y0), float(x1), float(y1)]]],
             return_tensors="pt",
         ).to(self.device)
         with self.torch.no_grad():
-            out = self.model(**inputs, multimask_output=False)
-        mask = self.processor.post_process_masks(out.pred_masks.cpu(), inputs["original_sizes"])[0]
-        return mask[0, 0].numpy().astype(bool), float(out.iou_scores.flatten()[0])
+            out = self.model(**inputs, multimask_output=True)
+        masks = self.processor.post_process_masks(out.pred_masks.cpu(), inputs["original_sizes"])[0][0]
+        ious = out.iou_scores.flatten().cpu()
+        best = int(ious.argmax())
+        return masks[best].numpy().astype(bool), float(ious[best])
 
 
 # --- background replacement (train only) -------------------------------------------

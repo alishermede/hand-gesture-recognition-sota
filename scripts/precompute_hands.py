@@ -4,7 +4,7 @@ For every row of dataset_v2/metadata_v2.csv:
   * MediaPipe Hand Landmarker on the full frame (largest hand kept);
   * square crop with 25% margin around the landmarks, or the A1 centre square when no
     hand is found (logged: `detected` = False);
-  * SAM 2.1 mask of the crop, prompted with landmark points + their box — only for
+  * SAM 2.1 mask of the crop, prompted with the landmark bounding box — only for
     training rows (background replacement is train-only) and rows with a hand.
 
 Usage:  python scripts/precompute_hands.py [--device cuda] [--no-sam] [--limit N]

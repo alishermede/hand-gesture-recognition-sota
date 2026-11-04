@@ -1,0 +1,25 @@
+# Assignment 2 environment (Python 3.14, Windows 10). Versions are the ones the results were produced with.
+# A separate venv is required: mediapipe needs opencv-contrib-python, which must not be installed
+# next to the opencv-python that the A1 environment (requirements.txt) uses.
+#
+# GPU (training was run on an RTX 3050 Ti 4 GB):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cu130
+# CPU only (enough for evaluation, latency and the app):
+#   pip install torch==2.14.1 torchvision==0.29.1 --index-url https://download.pytorch.org/whl/cpu
+# then:
+#   pip install -r requirements_a2.txt
+
+mediapipe==1.2.2
+opencv-contrib-python==5.0.0.93
+transformers==5.22.1
+huggingface_hub==2.4.0
+gradio==6.31.0
+numpy==2.5.4
+pandas==3.1.0
+pyarrow==26.0.1
+scikit-learn==1.9.1
+scikit-image==0.26.0
+matplotlib==3.11.2
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel==7.4.0
