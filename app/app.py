@@ -28,7 +28,7 @@ from src.hands import HandDetector, centre_box, crop_square, landmarks_in_crop
 from src.models import DinoV2Classifier, resnet18_classifier
 
 WEIGHTS_DIR = Path(os.environ.get("WEIGHTS_DIR", ROOT / "results" / "a2" / "models"))
-BEST = os.environ.get("BEST_MODEL", "S3")   # set after Stage 3: the best model on the new environments
+BEST = os.environ.get("BEST_MODEL", "S4")   # best on the new environments in Stage 3 (stage3_per_env.csv)
 MODEL_LABELS = {"B0": "B0 — A1 baseline (ResNet-18, centre square)",
                 "S3": "A2 — ResNet-18 + hand crop + bg replacement + HaGRID",
                 "S4": "A2 — DINOv2 ViT-S/14 + hand crop + bg replacement + HaGRID"}
