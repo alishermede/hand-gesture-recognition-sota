@@ -117,7 +117,8 @@ def predict(image, model_choice, use_sam, request: gr.Request):
     m = model(name)
     x = a1_eval_tf(inp).unsqueeze(0)
     t0 = time.perf_counter()
-    probs = torch.softmax(m(x), 1)[0].numpy()
+    with torch.no_grad():   # Gradio runs this in a worker thread: the global no-grad switch does not apply
+        probs = torch.softmax(m(x), 1)[0].numpy()
     times["classifier"] = time.perf_counter() - t0
 
     t0 = time.perf_counter()
@@ -190,4 +191,4 @@ def build():
 
 
 if __name__ == "__main__":
-    build().launch()
+    build().launch(show_error=True)
