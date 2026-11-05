@@ -155,12 +155,15 @@ display(pd.read_csv(RESULTS_DIR / "stage2_closeups.csv").round(3))
 if RETRAIN:
     run_stage("scripts/stage3_train.py")
     run_stage("scripts/stage3_analyze.py")
+    run_stage("scripts/stage3_clip_ci.py")
     run_stage("scripts/stage3_latency.py")
 
 print("Accuracy per test set, mean ± std over 3 seeds")
 display(pd.read_csv(RESULTS_DIR / "stage3_per_env.csv"))
 summ = pd.read_csv(RESULTS_DIR / "stage3_summary.csv")
 display(summ.round(3))
+print("Clip-level 95% CI (whole clips resampled; frames of one clip are near-duplicates)")
+display(pd.read_csv(RESULTS_DIR / "stage3_clip_ci.csv").round(3))
 
 # %%
 print("Ablation: change in accuracy / macro-F1 from each step, paired by seed")
@@ -193,3 +196,14 @@ if RETRAIN:
 
 display(pd.read_csv(RESULTS_DIR / "stage4_summary.csv").round(3))
 display(Image(filename=str(FIG_DIR / "stage4_heatmaps.png")))
+
+# %% [markdown]
+# ## Report charts
+#
+# Built only from the CSVs above by `scripts/make_report_figures.py`.
+
+# %%
+if RETRAIN:
+    run_stage("scripts/make_report_figures.py")
+for f in ["report_env_accuracy", "report_ablation", "report_accuracy_latency", "report_heat_on_hand"]:
+    display(Image(filename=str(FIG_DIR / f"{f}.png")))

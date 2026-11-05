@@ -31,3 +31,6 @@ dataset_v2/masks/
 
 # HaGRID contact sheets may show partial faces: local review only, never committed.
 figures/a2/stage1_contact_hagrid.png
+
+# Report build intermediate (the PDF is committed).
+REPORT_2.html

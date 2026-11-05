@@ -142,8 +142,7 @@ upgraded pipeline (MediaPipe hand landmarks → hand crop → classifier; SAM 2.
 background-replacement training).
 
 ### Data and licences
-* Own recordings of the author's hand (and, where stated in the report, a second person's hand,
-  recorded with their consent). No faces were recorded.
+* Own recordings of the author's hand only (29 clips, indoor). No faces were recorded.
 * **HaGRID** (Kapitanov et al.), sample `cj-mills/hagrid-sample-30k-384p`, **CC BY-SA 4.0** —
   hand crops only, split by person.
 * **DTD** textures (Cimpoi et al.) for background replacement, research use.
