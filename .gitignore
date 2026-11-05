@@ -17,3 +17,20 @@ cache/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+
+# FAST_MODE smoke-test outputs.
+*_fast.csv
+*_fast.png
+
+# HaGRID crops: re-created by scripts/download_hagrid.py (metadata CSV is committed).
+dataset_v2/hagrid/*/
+dataset_v2/frames/
+dataset_v2/square224/
+dataset_v2/crops/
+dataset_v2/masks/
+
+# HaGRID contact sheets may show partial faces: local review only, never committed.
+figures/a2/stage1_contact_hagrid.png
+
+# Report build intermediate (the PDF is committed).
+REPORT_2.html

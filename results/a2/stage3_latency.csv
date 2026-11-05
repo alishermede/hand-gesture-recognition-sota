@@ -1,0 +1,11 @@
+kind,name,median_ms,p95_ms,fps_median,runs,cpu,threads,torch,python,os
+component,MediaPipe Hand Landmarker,21.4,22.4,46.7,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+component,SAM 2.1 hiera-tiny (256 px crop),2187.9,2322.7,0.5,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+component,ResNet-18 classifier (224 px),22.5,26.4,44.4,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+component,DINOv2 ViT-S/14 classifier (224 px),57.2,63.3,17.5,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+component,Landmark MLP,0.1,0.1,15186.0,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+end-to-end,B0: centre square + ResNet-18,20.3,27.3,49.4,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+end-to-end,S3: MediaPipe + crop + ResNet-18,54.1,61.9,18.5,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+end-to-end,S4: MediaPipe + crop + DINOv2,84.9,96.9,11.8,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+end-to-end,S5: MediaPipe + landmark MLP,21.7,22.4,46.1,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10
+end-to-end,S3 + SAM 2.1 mask overlay (app option),2144.4,2311.8,0.5,50,AMD Ryzen 5 5600H with Radeon Graphics,6,2.14.1+cu130,3.14.0,Windows 10

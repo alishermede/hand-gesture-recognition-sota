@@ -1,0 +1,6 @@
+model,parameters,size_mb
+ResNet-18 (B0-S3),11178051.0,44.8
+DINOv2 ViT-S/14 + head (S4),22058883.0,88.3
+Landmark MLP (S5),16643.0,0.1
+SAM 2.1 hiera-tiny,31440721.0,125.8
+MediaPipe Hand Landmarker (.task),,7.8

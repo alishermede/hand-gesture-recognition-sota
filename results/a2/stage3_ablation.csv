@@ -1,0 +1,25 @@
+step,model,test_set,n_seeds,d_acc_mean,d_acc_std,d_f1_mean,d_f1_std
+crop,S1 vs B0,a1_test,3,0.025,0.0132,0.0243,0.0129
+crop,S1 vs B0,new_envs,3,0.2747,0.0086,0.2902,0.007
+crop,S1 vs B0,hagrid_people,3,0.21,0.0548,0.2796,0.0631
+crop,S1 vs B0,curtains,3,0.212,0.0128,0.2276,0.0032
+crop,S1 vs B0,night,3,0.3157,0.0181,0.3295,0.0255
+crop,S1 vs B0,table,3,0.2963,0.0297,0.3283,0.0481
+background replacement,S2 vs S1,a1_test,3,0.0067,0.0104,0.0066,0.0097
+background replacement,S2 vs S1,new_envs,3,0.0509,0.0192,0.0576,0.0216
+background replacement,S2 vs S1,hagrid_people,3,-0.0913,0.0052,-0.0906,0.0124
+background replacement,S2 vs S1,curtains,3,0.0259,0.0085,0.0298,0.0086
+background replacement,S2 vs S1,night,3,0.0222,0.0173,0.0241,0.0193
+background replacement,S2 vs S1,table,3,0.1046,0.0489,0.1284,0.0629
+HaGRID data,S3 vs S2,a1_test,3,0.01,0.0328,0.0096,0.0324
+HaGRID data,S3 vs S2,new_envs,3,0.0034,0.0123,0.0026,0.0121
+HaGRID data,S3 vs S2,hagrid_people,3,0.3733,0.0517,0.3923,0.0576
+HaGRID data,S3 vs S2,curtains,3,0.0065,0.0205,0.0058,0.0211
+HaGRID data,S3 vs S2,night,3,0.0111,0.0073,0.011,0.0071
+HaGRID data,S3 vs S2,table,3,-0.0074,0.0306,-0.0093,0.0287
+DINOv2 backbone (vs ResNet-18),S4 vs S3,a1_test,3,0.0283,0.0289,0.0276,0.0283
+DINOv2 backbone (vs ResNet-18),S4 vs S3,new_envs,3,0.0355,0.0134,0.0367,0.0141
+DINOv2 backbone (vs ResNet-18),S4 vs S3,hagrid_people,3,0.0011,0.0071,0.0008,0.0074
+DINOv2 backbone (vs ResNet-18),S4 vs S3,curtains,3,0.0315,0.0257,0.0331,0.028
+DINOv2 backbone (vs ResNet-18),S4 vs S3,night,3,0.0204,0.0064,0.0203,0.0065
+DINOv2 backbone (vs ResNet-18),S4 vs S3,table,3,0.0546,0.0085,0.0576,0.0092
